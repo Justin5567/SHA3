@@ -1,0 +1,1178 @@
+#! /usr/bin/vvp
+:ivl_version "11.0 (stable)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision - 11;
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/system.vpi";
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/vhdl_sys.vpi";
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/vhdl_textio.vpi";
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/v2005_math.vpi";
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/va_math.vpi";
+S_0x60dfa19bf9a0 .scope module, "TESTBED_Theta" "TESTBED_Theta" 2 3;
+ .timescale -9 -11;
+v0x60dfa1a50d20_0 .var/i "i", 31 0;
+v0x60dfa1a50e20_0 .net "in_data_0", 63 0, v0x60dfa1a475b0_0;  1 drivers
+v0x60dfa1a50ee0_0 .net "in_data_1", 63 0, v0x60dfa1a47690_0;  1 drivers
+v0x60dfa1a50fd0_0 .net "in_data_10", 63 0, v0x60dfa1a477c0_0;  1 drivers
+v0x60dfa1a510e0_0 .net "in_data_11", 63 0, v0x60dfa1a478a0_0;  1 drivers
+v0x60dfa1a51240_0 .net "in_data_12", 63 0, v0x60dfa1a47980_0;  1 drivers
+v0x60dfa1a51350_0 .net "in_data_13", 63 0, v0x60dfa1a47a60_0;  1 drivers
+v0x60dfa1a51460_0 .net "in_data_14", 63 0, v0x60dfa1a47b40_0;  1 drivers
+v0x60dfa1a51570_0 .net "in_data_15", 63 0, v0x60dfa1a47c20_0;  1 drivers
+v0x60dfa1a51630_0 .net "in_data_16", 63 0, v0x60dfa1a47d00_0;  1 drivers
+v0x60dfa1a51740_0 .net "in_data_17", 63 0, v0x60dfa1a47de0_0;  1 drivers
+v0x60dfa1a51850_0 .net "in_data_18", 63 0, v0x60dfa1a47ec0_0;  1 drivers
+v0x60dfa1a51960_0 .net "in_data_19", 63 0, v0x60dfa1a47fa0_0;  1 drivers
+v0x60dfa1a51a70_0 .net "in_data_2", 63 0, v0x60dfa1a48080_0;  1 drivers
+v0x60dfa1a51b80_0 .net "in_data_20", 63 0, v0x60dfa1a48160_0;  1 drivers
+v0x60dfa1a51c90_0 .net "in_data_21", 63 0, v0x60dfa1a48240_0;  1 drivers
+v0x60dfa1a51da0_0 .net "in_data_22", 63 0, v0x60dfa1a48320_0;  1 drivers
+v0x60dfa1a51eb0_0 .net "in_data_23", 63 0, v0x60dfa1a48400_0;  1 drivers
+v0x60dfa1a51fc0_0 .net "in_data_24", 63 0, v0x60dfa1a484e0_0;  1 drivers
+v0x60dfa1a520d0_0 .net "in_data_3", 63 0, v0x60dfa1a485c0_0;  1 drivers
+v0x60dfa1a521e0_0 .net "in_data_4", 63 0, v0x60dfa1a486a0_0;  1 drivers
+v0x60dfa1a522f0_0 .net "in_data_5", 63 0, v0x60dfa1a48780_0;  1 drivers
+v0x60dfa1a52400_0 .net "in_data_6", 63 0, v0x60dfa1a48860_0;  1 drivers
+v0x60dfa1a52510_0 .net "in_data_7", 63 0, v0x60dfa1a48940_0;  1 drivers
+v0x60dfa1a52620_0 .net "in_data_8", 63 0, v0x60dfa1a48a20_0;  1 drivers
+v0x60dfa1a52730_0 .net "in_data_9", 63 0, v0x60dfa1a48b00_0;  1 drivers
+v0x60dfa1a52840_0 .net "out_data_0", 63 0, L_0x60dfa1a56610;  1 drivers
+v0x60dfa1a52950_0 .net "out_data_1", 63 0, L_0x60dfa1a56e70;  1 drivers
+v0x60dfa1a52a60_0 .net "out_data_10", 63 0, L_0x60dfa1a568f0;  1 drivers
+v0x60dfa1a52b70_0 .net "out_data_11", 63 0, L_0x60dfa1a57180;  1 drivers
+v0x60dfa1a52c80_0 .net "out_data_12", 63 0, L_0x60dfa1a57860;  1 drivers
+v0x60dfa1a52d90_0 .net "out_data_13", 63 0, L_0x60dfa1a58260;  1 drivers
+v0x60dfa1a52ea0_0 .net "out_data_14", 63 0, L_0x60dfa1a58b80;  1 drivers
+v0x60dfa1a52fb0_0 .net "out_data_15", 63 0, L_0x60dfa1a56b70;  1 drivers
+v0x60dfa1a530c0_0 .net "out_data_16", 63 0, L_0x60dfa1a57310;  1 drivers
+v0x60dfa1a531d0_0 .net "out_data_17", 63 0, L_0x60dfa1a57b30;  1 drivers
+v0x60dfa1a532e0_0 .net "out_data_18", 63 0, L_0x60dfa1a58410;  1 drivers
+v0x60dfa1a533f0_0 .net "out_data_19", 63 0, L_0x60dfa1a58ec0;  1 drivers
+v0x60dfa1a53500_0 .net "out_data_2", 63 0, L_0x60dfa1a57630;  1 drivers
+v0x60dfa1a53610_0 .net "out_data_20", 63 0, L_0x60dfa1a56c70;  1 drivers
+v0x60dfa1a53720_0 .net "out_data_21", 63 0, L_0x60dfa1a57530;  1 drivers
+v0x60dfa1a53830_0 .net "out_data_22", 63 0, L_0x60dfa1a57c50;  1 drivers
+v0x60dfa1a53940_0 .net "out_data_23", 63 0, L_0x60dfa1a586a0;  1 drivers
+v0x60dfa1a53a50_0 .net "out_data_24", 63 0, L_0x60dfa1a58fe0;  1 drivers
+v0x60dfa1a53b60_0 .net "out_data_3", 63 0, L_0x60dfa1a57ec0;  1 drivers
+v0x60dfa1a53c70_0 .net "out_data_4", 63 0, L_0x60dfa1a587c0;  1 drivers
+v0x60dfa1a53d80_0 .net "out_data_5", 63 0, L_0x60dfa1a567f0;  1 drivers
+v0x60dfa1a53e90_0 .net "out_data_6", 63 0, L_0x60dfa1a56f70;  1 drivers
+v0x60dfa1a53fa0_0 .net "out_data_7", 63 0, L_0x60dfa1a57410;  1 drivers
+v0x60dfa1a540b0_0 .net "out_data_8", 63 0, L_0x60dfa1a57fe0;  1 drivers
+v0x60dfa1a541c0_0 .net "out_data_9", 63 0, L_0x60dfa1a58a60;  1 drivers
+S_0x60dfa19be890 .scope module, "U_PATTERN_Theta" "PATTERN_Theta" 2 115, 3 20 0, S_0x60dfa19bf9a0;
+ .timescale -9 -11;
+    .port_info 0 /OUTPUT 64 "in_data_0";
+    .port_info 1 /OUTPUT 64 "in_data_1";
+    .port_info 2 /OUTPUT 64 "in_data_2";
+    .port_info 3 /OUTPUT 64 "in_data_3";
+    .port_info 4 /OUTPUT 64 "in_data_4";
+    .port_info 5 /OUTPUT 64 "in_data_5";
+    .port_info 6 /OUTPUT 64 "in_data_6";
+    .port_info 7 /OUTPUT 64 "in_data_7";
+    .port_info 8 /OUTPUT 64 "in_data_8";
+    .port_info 9 /OUTPUT 64 "in_data_9";
+    .port_info 10 /OUTPUT 64 "in_data_10";
+    .port_info 11 /OUTPUT 64 "in_data_11";
+    .port_info 12 /OUTPUT 64 "in_data_12";
+    .port_info 13 /OUTPUT 64 "in_data_13";
+    .port_info 14 /OUTPUT 64 "in_data_14";
+    .port_info 15 /OUTPUT 64 "in_data_15";
+    .port_info 16 /OUTPUT 64 "in_data_16";
+    .port_info 17 /OUTPUT 64 "in_data_17";
+    .port_info 18 /OUTPUT 64 "in_data_18";
+    .port_info 19 /OUTPUT 64 "in_data_19";
+    .port_info 20 /OUTPUT 64 "in_data_20";
+    .port_info 21 /OUTPUT 64 "in_data_21";
+    .port_info 22 /OUTPUT 64 "in_data_22";
+    .port_info 23 /OUTPUT 64 "in_data_23";
+    .port_info 24 /OUTPUT 64 "in_data_24";
+    .port_info 25 /INPUT 64 "out_data_0";
+    .port_info 26 /INPUT 64 "out_data_1";
+    .port_info 27 /INPUT 64 "out_data_2";
+    .port_info 28 /INPUT 64 "out_data_3";
+    .port_info 29 /INPUT 64 "out_data_4";
+    .port_info 30 /INPUT 64 "out_data_5";
+    .port_info 31 /INPUT 64 "out_data_6";
+    .port_info 32 /INPUT 64 "out_data_7";
+    .port_info 33 /INPUT 64 "out_data_8";
+    .port_info 34 /INPUT 64 "out_data_9";
+    .port_info 35 /INPUT 64 "out_data_10";
+    .port_info 36 /INPUT 64 "out_data_11";
+    .port_info 37 /INPUT 64 "out_data_12";
+    .port_info 38 /INPUT 64 "out_data_13";
+    .port_info 39 /INPUT 64 "out_data_14";
+    .port_info 40 /INPUT 64 "out_data_15";
+    .port_info 41 /INPUT 64 "out_data_16";
+    .port_info 42 /INPUT 64 "out_data_17";
+    .port_info 43 /INPUT 64 "out_data_18";
+    .port_info 44 /INPUT 64 "out_data_19";
+    .port_info 45 /INPUT 64 "out_data_20";
+    .port_info 46 /INPUT 64 "out_data_21";
+    .port_info 47 /INPUT 64 "out_data_22";
+    .port_info 48 /INPUT 64 "out_data_23";
+    .port_info 49 /INPUT 64 "out_data_24";
+    .port_info 50 /NODIR 0 "";
+P_0x60dfa1998b10 .param/l "PATNUM" 0 3 140, +C4<00000000000000000000000000001111>;
+v0x60dfa19e4080_0 .var/i "a", 31 0;
+v0x60dfa19c75a0_0 .var "clk", 0 0;
+v0x60dfa1a474f0_0 .var/i "golden_read", 31 0;
+v0x60dfa1a475b0_0 .var "in_data_0", 63 0;
+v0x60dfa1a47690_0 .var "in_data_1", 63 0;
+v0x60dfa1a477c0_0 .var "in_data_10", 63 0;
+v0x60dfa1a478a0_0 .var "in_data_11", 63 0;
+v0x60dfa1a47980_0 .var "in_data_12", 63 0;
+v0x60dfa1a47a60_0 .var "in_data_13", 63 0;
+v0x60dfa1a47b40_0 .var "in_data_14", 63 0;
+v0x60dfa1a47c20_0 .var "in_data_15", 63 0;
+v0x60dfa1a47d00_0 .var "in_data_16", 63 0;
+v0x60dfa1a47de0_0 .var "in_data_17", 63 0;
+v0x60dfa1a47ec0_0 .var "in_data_18", 63 0;
+v0x60dfa1a47fa0_0 .var "in_data_19", 63 0;
+v0x60dfa1a48080_0 .var "in_data_2", 63 0;
+v0x60dfa1a48160_0 .var "in_data_20", 63 0;
+v0x60dfa1a48240_0 .var "in_data_21", 63 0;
+v0x60dfa1a48320_0 .var "in_data_22", 63 0;
+v0x60dfa1a48400_0 .var "in_data_23", 63 0;
+v0x60dfa1a484e0_0 .var "in_data_24", 63 0;
+v0x60dfa1a485c0_0 .var "in_data_3", 63 0;
+v0x60dfa1a486a0_0 .var "in_data_4", 63 0;
+v0x60dfa1a48780_0 .var "in_data_5", 63 0;
+v0x60dfa1a48860_0 .var "in_data_6", 63 0;
+v0x60dfa1a48940_0 .var "in_data_7", 63 0;
+v0x60dfa1a48a20_0 .var "in_data_8", 63 0;
+v0x60dfa1a48b00_0 .var "in_data_9", 63 0;
+v0x60dfa1a48be0_0 .var "in_data_all_reg", 1599 0;
+v0x60dfa1a48cc0 .array "in_data_reg", 24 0, 63 0;
+v0x60dfa1a48d80_0 .net "out_data_0", 63 0, L_0x60dfa1a56610;  alias, 1 drivers
+v0x60dfa1a48e60_0 .net "out_data_1", 63 0, L_0x60dfa1a56e70;  alias, 1 drivers
+v0x60dfa1a48f40_0 .net "out_data_10", 63 0, L_0x60dfa1a568f0;  alias, 1 drivers
+v0x60dfa1a49230_0 .net "out_data_11", 63 0, L_0x60dfa1a57180;  alias, 1 drivers
+v0x60dfa1a49310_0 .net "out_data_12", 63 0, L_0x60dfa1a57860;  alias, 1 drivers
+v0x60dfa1a493f0_0 .net "out_data_13", 63 0, L_0x60dfa1a58260;  alias, 1 drivers
+v0x60dfa1a494d0_0 .net "out_data_14", 63 0, L_0x60dfa1a58b80;  alias, 1 drivers
+v0x60dfa1a495b0_0 .net "out_data_15", 63 0, L_0x60dfa1a56b70;  alias, 1 drivers
+v0x60dfa1a49690_0 .net "out_data_16", 63 0, L_0x60dfa1a57310;  alias, 1 drivers
+v0x60dfa1a49770_0 .net "out_data_17", 63 0, L_0x60dfa1a57b30;  alias, 1 drivers
+v0x60dfa1a49850_0 .net "out_data_18", 63 0, L_0x60dfa1a58410;  alias, 1 drivers
+v0x60dfa1a49930_0 .net "out_data_19", 63 0, L_0x60dfa1a58ec0;  alias, 1 drivers
+v0x60dfa1a49a10_0 .net "out_data_2", 63 0, L_0x60dfa1a57630;  alias, 1 drivers
+v0x60dfa1a49af0_0 .net "out_data_20", 63 0, L_0x60dfa1a56c70;  alias, 1 drivers
+v0x60dfa1a49bd0_0 .net "out_data_21", 63 0, L_0x60dfa1a57530;  alias, 1 drivers
+v0x60dfa1a49cb0_0 .net "out_data_22", 63 0, L_0x60dfa1a57c50;  alias, 1 drivers
+v0x60dfa1a49d90_0 .net "out_data_23", 63 0, L_0x60dfa1a586a0;  alias, 1 drivers
+v0x60dfa1a49e70_0 .net "out_data_24", 63 0, L_0x60dfa1a58fe0;  alias, 1 drivers
+v0x60dfa1a49f50_0 .net "out_data_3", 63 0, L_0x60dfa1a57ec0;  alias, 1 drivers
+v0x60dfa1a4a030_0 .net "out_data_4", 63 0, L_0x60dfa1a587c0;  alias, 1 drivers
+v0x60dfa1a4a110_0 .net "out_data_5", 63 0, L_0x60dfa1a567f0;  alias, 1 drivers
+v0x60dfa1a4a1f0_0 .net "out_data_6", 63 0, L_0x60dfa1a56f70;  alias, 1 drivers
+v0x60dfa1a4a2d0_0 .net "out_data_7", 63 0, L_0x60dfa1a57410;  alias, 1 drivers
+v0x60dfa1a4a3b0_0 .net "out_data_8", 63 0, L_0x60dfa1a57fe0;  alias, 1 drivers
+v0x60dfa1a4a490_0 .net "out_data_9", 63 0, L_0x60dfa1a58a60;  alias, 1 drivers
+v0x60dfa1a4a570_0 .var "out_data_all_reg", 1599 0;
+v0x60dfa1a4a650 .array "out_data_reg", 24 0, 63 0;
+v0x60dfa1a4a710_0 .var/i "patcount", 31 0;
+v0x60dfa1a4a7f0_0 .var "tmp", 63 0;
+E_0x60dfa194fc80 .event edge, v0x60dfa1a48be0_0, v0x60dfa1a4a570_0;
+S_0x60dfa19bd780 .scope task, "check_answer" "check_answer" 3 215, 3 215 0, S_0x60dfa19be890;
+ .timescale -9 -11;
+TD_TESTBED_Theta.U_PATTERN_Theta.check_answer ;
+    %delay 1000, 0;
+    %load/vec4 v0x60dfa1a48d80_0;
+    %ix/load 4, 0, 0;
+    %flag_set/imm 4, 0;
+    %load/vec4a v0x60dfa1a4a650, 4;
+    %cmp/ne;
+    %jmp/0xz  T_0.0, 6;
+    %vpi_call 3 220 "$display", "----------------------------------------------------------------------" {0 0 0};
+    %vpi_call 3 221 "$display", "  FAIL %2d\012                \011\011\011\011\011\011                     ", v0x60dfa1a4a710_0 {0 0 0};
+    %vpi_call 3 222 "$display", "  Oops! Your Answer is Wrong in 00 block                \011\011\011\011\011\011     \012" {0 0 0};
+    %vpi_call 3 223 "$display", "  [Correct Answer] %h\012                 \011\011\011\011\011             ", &A<v0x60dfa1a4a650, 0> {0 0 0};
+    %vpi_call 3 224 "$display", "  [Your Answer] %h\012                 \011\011\011\011\011\011         ", v0x60dfa1a48d80_0 {0 0 0};
+    %vpi_call 3 225 "$display", "--------------------------------------------------------------------- " {0 0 0};
+    %vpi_call 3 226 "$finish" {0 0 0};
+T_0.0 ;
+    %load/vec4 v0x60dfa1a48e60_0;
+    %ix/load 4, 1, 0;
+    %flag_set/imm 4, 0;
+    %load/vec4a v0x60dfa1a4a650, 4;
+    %cmp/ne;
+    %jmp/0xz  T_0.2, 6;
+    %vpi_call 3 230 "$display", "----------------------------------------------------------------------" {0 0 0};
+    %vpi_call 3 231 "$display", "  FAIL %2d\012                \011\011\011\011\011\011                     ", v0x60dfa1a4a710_0 {0 0 0};
+    %vpi_call 3 232 "$display", "  Oops! Your Answer is Wrong in 01 block                \011\011\011\011\011\011     \012" {0 0 0};
+    %vpi_call 3 233 "$display", "  [Correct Answer] %h\012                 \011\011\011\011\011             ", &A<v0x60dfa1a4a650, 1> {0 0 0};
+    %vpi_call 3 234 "$display", "  [Your Answer] %h\012                 \011\011\011\011\011\011         ", v0x60dfa1a48e60_0 {0 0 0};
+    %vpi_call 3 235 "$display", "--------------------------------------------------------------------- " {0 0 0};
+    %vpi_call 3 236 "$finish" {0 0 0};
+T_0.2 ;
+    %load/vec4 v0x60dfa1a49a10_0;
+    %ix/load 4, 2, 0;
+    %flag_set/imm 4, 0;
+    %load/vec4a v0x60dfa1a4a650, 4;
+    %cmp/ne;
+    %jmp/0xz  T_0.4, 6;
+    %vpi_call 3 240 "$display", "----------------------------------------------------------------------" {0 0 0};
+    %vpi_call 3 241 "$display", "  FAIL %2d\012                \011\011\011\011\011\011                     ", v0x60dfa1a4a710_0 {0 0 0};
+    %vpi_call 3 242 "$display", "  Oops! Your Answer is Wrong in 02 block                \011\011\011\011\011\011     \012" {0 0 0};
+    %vpi_call 3 243 "$display", "  [Correct Answer] %h\012                 \011\011\011\011\011             ", &A<v0x60dfa1a4a650, 2> {0 0 0};
+    %vpi_call 3 244 "$display", "  [Your Answer] %h\012                 \011\011\011\011\011\011         ", v0x60dfa1a49a10_0 {0 0 0};
+    %vpi_call 3 245 "$display", "--------------------------------------------------------------------- " {0 0 0};
+    %vpi_call 3 246 "$finish" {0 0 0};
+T_0.4 ;
+    %load/vec4 v0x60dfa1a49f50_0;
+    %ix/load 4, 3, 0;
+    %flag_set/imm 4, 0;
+    %load/vec4a v0x60dfa1a4a650, 4;
+    %cmp/ne;
+    %jmp/0xz  T_0.6, 6;
+    %vpi_call 3 251 "$display", "----------------------------------------------------------------------" {0 0 0};
+    %vpi_call 3 252 "$display", "  FAIL %2d\012                \011\011\011\011\011\011                     ", v0x60dfa1a4a710_0 {0 0 0};
+    %vpi_call 3 253 "$display", "  Oops! Your Answer is Wrong in 03 block                \011\011\011\011\011\011     \012" {0 0 0};
+    %vpi_call 3 254 "$display", "  [Correct Answer] %h\012                 \011\011\011\011\011             ", &A<v0x60dfa1a4a650, 3> {0 0 0};
+    %vpi_call 3 255 "$display", "  [Your Answer] %h\012                 \011\011\011\011\011\011         ", v0x60dfa1a49f50_0 {0 0 0};
+    %vpi_call 3 256 "$display", "--------------------------------------------------------------------- " {0 0 0};
+    %vpi_call 3 257 "$finish" {0 0 0};
+T_0.6 ;
+    %load/vec4 v0x60dfa1a4a030_0;
+    %ix/load 4, 4, 0;
+    %flag_set/imm 4, 0;
+    %load/vec4a v0x60dfa1a4a650, 4;
+    %cmp/ne;
+    %jmp/0xz  T_0.8, 6;
+    %vpi_call 3 261 "$display", "----------------------------------------------------------------------" {0 0 0};
+    %vpi_call 3 262 "$display", "  FAIL %2d\012                \011\011\011\011\011\011                     ", v0x60dfa1a4a710_0 {0 0 0};
+    %vpi_call 3 263 "$display", "  Oops! Your Answer is Wrong in 04 block                \011\011\011\011\011\011     \012" {0 0 0};
+    %vpi_call 3 264 "$display", "  [Correct Answer] %h\012                 \011\011\011\011\011             ", &A<v0x60dfa1a4a650, 4> {0 0 0};
+    %vpi_call 3 265 "$display", "  [Your Answer] %h\012                 \011\011\011\011\011\011         ", v0x60dfa1a4a030_0 {0 0 0};
+    %vpi_call 3 266 "$display", "--------------------------------------------------------------------- " {0 0 0};
+    %vpi_call 3 267 "$finish" {0 0 0};
+T_0.8 ;
+    %load/vec4 v0x60dfa1a4a110_0;
+    %ix/load 4, 5, 0;
+    %flag_set/imm 4, 0;
+    %load/vec4a v0x60dfa1a4a650, 4;
+    %cmp/ne;
+    %jmp/0xz  T_0.10, 6;
+    %vpi_call 3 272 "$display", "----------------------------------------------------------------------" {0 0 0};
+    %vpi_call 3 273 "$display", "  FAIL %2d\012                \011\011\011\011\011\011                     ", v0x60dfa1a4a710_0 {0 0 0};
+    %vpi_call 3 274 "$display", "  Oops! Your Answer is Wrong in 05 block                \011\011\011\011\011\011     \012" {0 0 0};
+    %vpi_call 3 275 "$display", "  [Correct Answer] %h\012                 \011\011\011\011\011             ", &A<v0x60dfa1a4a650, 5> {0 0 0};
+    %vpi_call 3 276 "$display", "  [Your Answer] %h\012                 \011\011\011\011\011\011         ", v0x60dfa1a4a110_0 {0 0 0};
+    %vpi_call 3 277 "$display", "--------------------------------------------------------------------- " {0 0 0};
+    %vpi_call 3 278 "$finish" {0 0 0};
+T_0.10 ;
+    %load/vec4 v0x60dfa1a4a1f0_0;
+    %ix/load 4, 6, 0;
+    %flag_set/imm 4, 0;
+    %load/vec4a v0x60dfa1a4a650, 4;
+    %cmp/ne;
+    %jmp/0xz  T_0.12, 6;
+    %vpi_call 3 282 "$display", "----------------------------------------------------------------------" {0 0 0};
+    %vpi_call 3 283 "$display", "  FAIL %2d\012                \011\011\011\011\011\011                     ", v0x60dfa1a4a710_0 {0 0 0};
+    %vpi_call 3 284 "$display", "  Oops! Your Answer is Wrong in 6 block                \011\011\011\011\011\011     \012" {0 0 0};
+    %vpi_call 3 285 "$display", "  [Correct Answer] %h\012                 \011\011\011\011\011             ", &A<v0x60dfa1a4a650, 6> {0 0 0};
+    %vpi_call 3 286 "$display", "  [Your Answer] %h\012                 \011\011\011\011\011\011         ", v0x60dfa1a4a1f0_0 {0 0 0};
+    %vpi_call 3 287 "$display", "--------------------------------------------------------------------- " {0 0 0};
+    %vpi_call 3 288 "$finish" {0 0 0};
+T_0.12 ;
+    %load/vec4 v0x60dfa1a4a2d0_0;
+    %ix/load 4, 7, 0;
+    %flag_set/imm 4, 0;
+    %load/vec4a v0x60dfa1a4a650, 4;
+    %cmp/ne;
+    %jmp/0xz  T_0.14, 6;
+    %vpi_call 3 292 "$display", "----------------------------------------------------------------------" {0 0 0};
+    %vpi_call 3 293 "$display", "  FAIL %2d\012                \011\011\011\011\011\011                     ", v0x60dfa1a4a710_0 {0 0 0};
+    %vpi_call 3 294 "$display", "  Oops! Your Answer is Wrong in 7 block                \011\011\011\011\011\011     \012" {0 0 0};
+    %vpi_call 3 295 "$display", "  [Correct Answer] %h\012                 \011\011\011\011\011             ", &A<v0x60dfa1a4a650, 7> {0 0 0};
+    %vpi_call 3 296 "$display", "  [Your Answer] %h\012                 \011\011\011\011\011\011         ", v0x60dfa1a4a2d0_0 {0 0 0};
+    %vpi_call 3 297 "$display", "--------------------------------------------------------------------- " {0 0 0};
+    %vpi_call 3 298 "$finish" {0 0 0};
+T_0.14 ;
+    %load/vec4 v0x60dfa1a4a3b0_0;
+    %ix/load 4, 8, 0;
+    %flag_set/imm 4, 0;
+    %load/vec4a v0x60dfa1a4a650, 4;
+    %cmp/ne;
+    %jmp/0xz  T_0.16, 6;
+    %vpi_call 3 302 "$display", "----------------------------------------------------------------------" {0 0 0};
+    %vpi_call 3 303 "$display", "  FAIL %2d\012                \011\011\011\011\011\011                     ", v0x60dfa1a4a710_0 {0 0 0};
+    %vpi_call 3 304 "$display", "  Oops! Your Answer is Wrong in 8 block                \011\011\011\011\011\011     \012" {0 0 0};
+    %vpi_call 3 305 "$display", "  [Correct Answer] %h\012                 \011\011\011\011\011             ", &A<v0x60dfa1a4a650, 8> {0 0 0};
+    %vpi_call 3 306 "$display", "  [Your Answer] %h\012                 \011\011\011\011\011\011         ", v0x60dfa1a4a3b0_0 {0 0 0};
+    %vpi_call 3 307 "$display", "--------------------------------------------------------------------- " {0 0 0};
+    %vpi_call 3 308 "$finish" {0 0 0};
+T_0.16 ;
+    %load/vec4 v0x60dfa1a4a490_0;
+    %ix/load 4, 9, 0;
+    %flag_set/imm 4, 0;
+    %load/vec4a v0x60dfa1a4a650, 4;
+    %cmp/ne;
+    %jmp/0xz  T_0.18, 6;
+    %vpi_call 3 312 "$display", "----------------------------------------------------------------------" {0 0 0};
+    %vpi_call 3 313 "$display", "  FAIL %2d\012                \011\011\011\011\011\011                     ", v0x60dfa1a4a710_0 {0 0 0};
+    %vpi_call 3 314 "$display", "  Oops! Your Answer is Wrong in 9 block                \011\011\011\011\011\011     \012" {0 0 0};
+    %vpi_call 3 315 "$display", "  [Correct Answer] %h\012                 \011\011\011\011\011             ", &A<v0x60dfa1a4a650, 9> {0 0 0};
+    %vpi_call 3 316 "$display", "  [Your Answer] %h\012                 \011\011\011\011\011\011         ", v0x60dfa1a4a490_0 {0 0 0};
+    %vpi_call 3 317 "$display", "--------------------------------------------------------------------- " {0 0 0};
+    %vpi_call 3 318 "$finish" {0 0 0};
+T_0.18 ;
+    %load/vec4 v0x60dfa1a48f40_0;
+    %ix/load 4, 10, 0;
+    %flag_set/imm 4, 0;
+    %load/vec4a v0x60dfa1a4a650, 4;
+    %cmp/ne;
+    %jmp/0xz  T_0.20, 6;
+    %vpi_call 3 322 "$display", "----------------------------------------------------------------------" {0 0 0};
+    %vpi_call 3 323 "$display", "  FAIL %2d\012                \011\011\011\011\011\011                     ", v0x60dfa1a4a710_0 {0 0 0};
+    %vpi_call 3 324 "$display", "  Oops! Your Answer is Wrong in 10 block                \011\011\011\011\011\011     \012" {0 0 0};
+    %vpi_call 3 325 "$display", "  [Correct Answer] %h\012                 \011\011\011\011\011             ", &A<v0x60dfa1a4a650, 10> {0 0 0};
+    %vpi_call 3 326 "$display", "  [Your Answer] %h\012                 \011\011\011\011\011\011         ", v0x60dfa1a48f40_0 {0 0 0};
+    %vpi_call 3 327 "$display", "--------------------------------------------------------------------- " {0 0 0};
+    %vpi_call 3 328 "$finish" {0 0 0};
+T_0.20 ;
+    %load/vec4 v0x60dfa1a49230_0;
+    %ix/load 4, 11, 0;
+    %flag_set/imm 4, 0;
+    %load/vec4a v0x60dfa1a4a650, 4;
+    %cmp/ne;
+    %jmp/0xz  T_0.22, 6;
+    %vpi_call 3 332 "$display", "----------------------------------------------------------------------" {0 0 0};
+    %vpi_call 3 333 "$display", "  FAIL %2d\012                \011\011\011\011\011\011                     ", v0x60dfa1a4a710_0 {0 0 0};
+    %vpi_call 3 334 "$display", "  Oops! Your Answer is Wrong in 11 block                \011\011\011\011\011\011     \012" {0 0 0};
+    %vpi_call 3 335 "$display", "  [Correct Answer] %h\012                 \011\011\011\011\011             ", &A<v0x60dfa1a4a650, 11> {0 0 0};
+    %vpi_call 3 336 "$display", "  [Your Answer] %h\012                 \011\011\011\011\011\011         ", v0x60dfa1a49230_0 {0 0 0};
+    %vpi_call 3 337 "$display", "--------------------------------------------------------------------- " {0 0 0};
+    %vpi_call 3 338 "$finish" {0 0 0};
+T_0.22 ;
+    %load/vec4 v0x60dfa1a49310_0;
+    %ix/load 4, 12, 0;
+    %flag_set/imm 4, 0;
+    %load/vec4a v0x60dfa1a4a650, 4;
+    %cmp/ne;
+    %jmp/0xz  T_0.24, 6;
+    %vpi_call 3 342 "$display", "----------------------------------------------------------------------" {0 0 0};
+    %vpi_call 3 343 "$display", "  FAIL %2d\012                \011\011\011\011\011\011                     ", v0x60dfa1a4a710_0 {0 0 0};
+    %vpi_call 3 344 "$display", "  Oops! Your Answer is Wrong in 12 block                \011\011\011\011\011\011     \012" {0 0 0};
+    %vpi_call 3 345 "$display", "  [Correct Answer] %h\012                 \011\011\011\011\011             ", &A<v0x60dfa1a4a650, 12> {0 0 0};
+    %vpi_call 3 346 "$display", "  [Your Answer] %h\012                 \011\011\011\011\011\011         ", v0x60dfa1a49310_0 {0 0 0};
+    %vpi_call 3 347 "$display", "--------------------------------------------------------------------- " {0 0 0};
+    %vpi_call 3 348 "$finish" {0 0 0};
+T_0.24 ;
+    %load/vec4 v0x60dfa1a493f0_0;
+    %ix/load 4, 13, 0;
+    %flag_set/imm 4, 0;
+    %load/vec4a v0x60dfa1a4a650, 4;
+    %cmp/ne;
+    %jmp/0xz  T_0.26, 6;
+    %vpi_call 3 352 "$display", "----------------------------------------------------------------------" {0 0 0};
+    %vpi_call 3 353 "$display", "  FAIL %2d\012                \011\011\011\011\011\011                     ", v0x60dfa1a4a710_0 {0 0 0};
+    %vpi_call 3 354 "$display", "  Oops! Your Answer is Wrong in 13 block                \011\011\011\011\011\011     \012" {0 0 0};
+    %vpi_call 3 355 "$display", "  [Correct Answer] %h\012                 \011\011\011\011\011             ", &A<v0x60dfa1a4a650, 13> {0 0 0};
+    %vpi_call 3 356 "$display", "  [Your Answer] %h\012                 \011\011\011\011\011\011         ", v0x60dfa1a493f0_0 {0 0 0};
+    %vpi_call 3 357 "$display", "--------------------------------------------------------------------- " {0 0 0};
+    %vpi_call 3 358 "$finish" {0 0 0};
+T_0.26 ;
+    %load/vec4 v0x60dfa1a494d0_0;
+    %ix/load 4, 14, 0;
+    %flag_set/imm 4, 0;
+    %load/vec4a v0x60dfa1a4a650, 4;
+    %cmp/ne;
+    %jmp/0xz  T_0.28, 6;
+    %vpi_call 3 362 "$display", "----------------------------------------------------------------------" {0 0 0};
+    %vpi_call 3 363 "$display", "  FAIL %2d\012                \011\011\011\011\011\011                     ", v0x60dfa1a4a710_0 {0 0 0};
+    %vpi_call 3 364 "$display", "  Oops! Your Answer is Wrong in 14 block                \011\011\011\011\011\011     \012" {0 0 0};
+    %vpi_call 3 365 "$display", "  [Correct Answer] %h\012                 \011\011\011\011\011             ", &A<v0x60dfa1a4a650, 14> {0 0 0};
+    %vpi_call 3 366 "$display", "  [Your Answer] %h\012                 \011\011\011\011\011\011         ", v0x60dfa1a494d0_0 {0 0 0};
+    %vpi_call 3 367 "$display", "--------------------------------------------------------------------- " {0 0 0};
+    %vpi_call 3 368 "$finish" {0 0 0};
+T_0.28 ;
+    %load/vec4 v0x60dfa1a495b0_0;
+    %ix/load 4, 15, 0;
+    %flag_set/imm 4, 0;
+    %load/vec4a v0x60dfa1a4a650, 4;
+    %cmp/ne;
+    %jmp/0xz  T_0.30, 6;
+    %vpi_call 3 372 "$display", "----------------------------------------------------------------------" {0 0 0};
+    %vpi_call 3 373 "$display", "  FAIL %2d\012                \011\011\011\011\011\011                     ", v0x60dfa1a4a710_0 {0 0 0};
+    %vpi_call 3 374 "$display", "  Oops! Your Answer is Wrong in 15 block                \011\011\011\011\011\011     \012" {0 0 0};
+    %vpi_call 3 375 "$display", "  [Correct Answer] %h\012                 \011\011\011\011\011             ", &A<v0x60dfa1a4a650, 15> {0 0 0};
+    %vpi_call 3 376 "$display", "  [Your Answer] %h\012                 \011\011\011\011\011\011         ", v0x60dfa1a495b0_0 {0 0 0};
+    %vpi_call 3 377 "$display", "--------------------------------------------------------------------- " {0 0 0};
+    %vpi_call 3 378 "$finish" {0 0 0};
+T_0.30 ;
+    %load/vec4 v0x60dfa1a49690_0;
+    %ix/load 4, 16, 0;
+    %flag_set/imm 4, 0;
+    %load/vec4a v0x60dfa1a4a650, 4;
+    %cmp/ne;
+    %jmp/0xz  T_0.32, 6;
+    %vpi_call 3 382 "$display", "----------------------------------------------------------------------" {0 0 0};
+    %vpi_call 3 383 "$display", "  FAIL %2d\012                \011\011\011\011\011\011                     ", v0x60dfa1a4a710_0 {0 0 0};
+    %vpi_call 3 384 "$display", "  Oops! Your Answer is Wrong in 16 block                \011\011\011\011\011\011     \012" {0 0 0};
+    %vpi_call 3 385 "$display", "  [Correct Answer] %h\012               \011\011\011\011\011             ", &A<v0x60dfa1a4a650, 16> {0 0 0};
+    %vpi_call 3 386 "$display", "  [Your Answer] %h\012                 \011\011\011\011\011\011         ", v0x60dfa1a49690_0 {0 0 0};
+    %vpi_call 3 387 "$display", "--------------------------------------------------------------------- " {0 0 0};
+    %vpi_call 3 388 "$finish" {0 0 0};
+T_0.32 ;
+    %load/vec4 v0x60dfa1a49770_0;
+    %ix/load 4, 17, 0;
+    %flag_set/imm 4, 0;
+    %load/vec4a v0x60dfa1a4a650, 4;
+    %cmp/ne;
+    %jmp/0xz  T_0.34, 6;
+    %vpi_call 3 392 "$display", "----------------------------------------------------------------------" {0 0 0};
+    %vpi_call 3 393 "$display", "  FAIL %2d\012                \011\011\011\011\011\011                     ", v0x60dfa1a4a710_0 {0 0 0};
+    %vpi_call 3 394 "$display", "  Oops! Your Answer is Wrong in 17 block                \011\011\011\011\011\011     \012" {0 0 0};
+    %vpi_call 3 395 "$display", "  [Correct Answer] %h\012                 \011\011\011\011\011             ", &A<v0x60dfa1a4a650, 17> {0 0 0};
+    %vpi_call 3 396 "$display", "  [Your Answer] %h\012                 \011\011\011\011\011\011         ", v0x60dfa1a49770_0 {0 0 0};
+    %vpi_call 3 397 "$display", "--------------------------------------------------------------------- " {0 0 0};
+    %vpi_call 3 398 "$finish" {0 0 0};
+T_0.34 ;
+    %load/vec4 v0x60dfa1a49850_0;
+    %ix/load 4, 18, 0;
+    %flag_set/imm 4, 0;
+    %load/vec4a v0x60dfa1a4a650, 4;
+    %cmp/ne;
+    %jmp/0xz  T_0.36, 6;
+    %vpi_call 3 402 "$display", "----------------------------------------------------------------------" {0 0 0};
+    %vpi_call 3 403 "$display", "  FAIL %2d\012                \011\011\011\011\011\011                     ", v0x60dfa1a4a710_0 {0 0 0};
+    %vpi_call 3 404 "$display", "  Oops! Your Answer is Wrong in 18 block                \011\011\011\011\011\011     \012" {0 0 0};
+    %vpi_call 3 405 "$display", "  [Correct Answer] %h\012                 \011\011\011\011\011             ", &A<v0x60dfa1a4a650, 18> {0 0 0};
+    %vpi_call 3 406 "$display", "  [Your Answer] %h\012                 \011\011\011\011\011\011         ", v0x60dfa1a49850_0 {0 0 0};
+    %vpi_call 3 407 "$display", "--------------------------------------------------------------------- " {0 0 0};
+    %vpi_call 3 408 "$finish" {0 0 0};
+T_0.36 ;
+    %load/vec4 v0x60dfa1a49930_0;
+    %ix/load 4, 19, 0;
+    %flag_set/imm 4, 0;
+    %load/vec4a v0x60dfa1a4a650, 4;
+    %cmp/ne;
+    %jmp/0xz  T_0.38, 6;
+    %vpi_call 3 412 "$display", "----------------------------------------------------------------------" {0 0 0};
+    %vpi_call 3 413 "$display", "  FAIL %2d\012                \011\011\011\011\011\011                     ", v0x60dfa1a4a710_0 {0 0 0};
+    %vpi_call 3 414 "$display", "  Oops! Your Answer is Wrong in 19 block                \011\011\011\011\011\011     \012" {0 0 0};
+    %vpi_call 3 415 "$display", "  [Correct Answer] %h\012                 \011\011\011\011\011             ", &A<v0x60dfa1a4a650, 19> {0 0 0};
+    %vpi_call 3 416 "$display", "  [Your Answer] %h\012                 \011\011\011\011\011\011         ", v0x60dfa1a49930_0 {0 0 0};
+    %vpi_call 3 417 "$display", "--------------------------------------------------------------------- " {0 0 0};
+    %vpi_call 3 418 "$finish" {0 0 0};
+T_0.38 ;
+    %load/vec4 v0x60dfa1a49af0_0;
+    %ix/load 4, 20, 0;
+    %flag_set/imm 4, 0;
+    %load/vec4a v0x60dfa1a4a650, 4;
+    %cmp/ne;
+    %jmp/0xz  T_0.40, 6;
+    %vpi_call 3 422 "$display", "----------------------------------------------------------------------" {0 0 0};
+    %vpi_call 3 423 "$display", "  FAIL %2d\012                \011\011\011\011\011\011                     ", v0x60dfa1a4a710_0 {0 0 0};
+    %vpi_call 3 424 "$display", "  Oops! Your Answer is Wrong in 20 block                \011\011\011\011\011\011     \012" {0 0 0};
+    %vpi_call 3 425 "$display", "  [Correct Answer] %h\012                 \011\011\011\011\011             ", &A<v0x60dfa1a4a650, 20> {0 0 0};
+    %vpi_call 3 426 "$display", "  [Your Answer] %h\012                 \011\011\011\011\011\011         ", v0x60dfa1a49af0_0 {0 0 0};
+    %vpi_call 3 427 "$display", "--------------------------------------------------------------------- " {0 0 0};
+    %vpi_call 3 428 "$finish" {0 0 0};
+T_0.40 ;
+    %load/vec4 v0x60dfa1a49bd0_0;
+    %ix/load 4, 21, 0;
+    %flag_set/imm 4, 0;
+    %load/vec4a v0x60dfa1a4a650, 4;
+    %cmp/ne;
+    %jmp/0xz  T_0.42, 6;
+    %vpi_call 3 432 "$display", "----------------------------------------------------------------------" {0 0 0};
+    %vpi_call 3 433 "$display", "  FAIL %2d\012                \011\011\011\011\011\011                     ", v0x60dfa1a4a710_0 {0 0 0};
+    %vpi_call 3 434 "$display", "  Oops! Your Answer is Wrong in 21 block                \011\011\011\011\011\011     \012" {0 0 0};
+    %vpi_call 3 435 "$display", "  [Correct Answer] %h\012                 \011\011\011\011\011             ", &A<v0x60dfa1a4a650, 21> {0 0 0};
+    %vpi_call 3 436 "$display", "  [Your Answer] %h\012                 \011\011\011\011\011\011         ", v0x60dfa1a49bd0_0 {0 0 0};
+    %vpi_call 3 437 "$display", "--------------------------------------------------------------------- " {0 0 0};
+    %vpi_call 3 438 "$finish" {0 0 0};
+T_0.42 ;
+    %load/vec4 v0x60dfa1a49cb0_0;
+    %ix/load 4, 22, 0;
+    %flag_set/imm 4, 0;
+    %load/vec4a v0x60dfa1a4a650, 4;
+    %cmp/ne;
+    %jmp/0xz  T_0.44, 6;
+    %vpi_call 3 442 "$display", "----------------------------------------------------------------------" {0 0 0};
+    %vpi_call 3 443 "$display", "  FAIL %2d\012                \011\011\011\011\011\011                     ", v0x60dfa1a4a710_0 {0 0 0};
+    %vpi_call 3 444 "$display", "  Oops! Your Answer is Wrong in 22 block                \011\011\011\011\011\011     \012" {0 0 0};
+    %vpi_call 3 445 "$display", "  [Correct Answer] %h\012                 \011\011\011\011\011             ", &A<v0x60dfa1a4a650, 22> {0 0 0};
+    %vpi_call 3 446 "$display", "  [Your Answer] %h\012                 \011\011\011\011\011\011         ", v0x60dfa1a49cb0_0 {0 0 0};
+    %vpi_call 3 447 "$display", "--------------------------------------------------------------------- " {0 0 0};
+    %vpi_call 3 448 "$finish" {0 0 0};
+T_0.44 ;
+    %load/vec4 v0x60dfa1a49d90_0;
+    %ix/load 4, 23, 0;
+    %flag_set/imm 4, 0;
+    %load/vec4a v0x60dfa1a4a650, 4;
+    %cmp/ne;
+    %jmp/0xz  T_0.46, 6;
+    %vpi_call 3 452 "$display", "----------------------------------------------------------------------" {0 0 0};
+    %vpi_call 3 453 "$display", "  FAIL %2d\012                \011\011\011\011\011\011                     ", v0x60dfa1a4a710_0 {0 0 0};
+    %vpi_call 3 454 "$display", "  Oops! Your Answer is Wrong in 23 block                \011\011\011\011\011\011     \012" {0 0 0};
+    %vpi_call 3 455 "$display", "  [Correct Answer] %h\012                 \011\011\011\011\011             ", &A<v0x60dfa1a4a650, 23> {0 0 0};
+    %vpi_call 3 456 "$display", "  [Your Answer] %h\012                 \011\011\011\011\011\011         ", v0x60dfa1a49d90_0 {0 0 0};
+    %vpi_call 3 457 "$display", "--------------------------------------------------------------------- " {0 0 0};
+    %vpi_call 3 458 "$finish" {0 0 0};
+T_0.46 ;
+    %load/vec4 v0x60dfa1a49e70_0;
+    %ix/load 4, 24, 0;
+    %flag_set/imm 4, 0;
+    %load/vec4a v0x60dfa1a4a650, 4;
+    %cmp/ne;
+    %jmp/0xz  T_0.48, 6;
+    %vpi_call 3 462 "$display", "----------------------------------------------------------------------" {0 0 0};
+    %vpi_call 3 463 "$display", "  FAIL %2d\012                \011\011\011\011\011\011                     ", v0x60dfa1a4a710_0 {0 0 0};
+    %vpi_call 3 464 "$display", "  Oops! Your Answer is Wrong in 24 block                \011\011\011\011\011\011     \012" {0 0 0};
+    %vpi_call 3 465 "$display", "  [Correct Answer] %h\012                 \011\011\011\011\011             ", &A<v0x60dfa1a4a650, 24> {0 0 0};
+    %vpi_call 3 466 "$display", "  [Your Answer] %h\012                 \011\011\011\011\011\011         ", v0x60dfa1a49e70_0 {0 0 0};
+    %vpi_call 3 467 "$display", "--------------------------------------------------------------------- " {0 0 0};
+    %vpi_call 3 468 "$finish" {0 0 0};
+T_0.48 ;
+    %end;
+S_0x60dfa19b60b0 .scope task, "input_task" "input_task" 3 186, 3 186 0, S_0x60dfa19be890;
+ .timescale -9 -11;
+E_0x60dfa1955ec0 .event negedge, v0x60dfa19c75a0_0;
+TD_TESTBED_Theta.U_PATTERN_Theta.input_task ;
+    %wait E_0x60dfa1955ec0;
+    %ix/load 4, 0, 0;
+    %flag_set/imm 4, 0;
+    %load/vec4a v0x60dfa1a48cc0, 4;
+    %store/vec4 v0x60dfa1a475b0_0, 0, 64;
+    %ix/load 4, 1, 0;
+    %flag_set/imm 4, 0;
+    %load/vec4a v0x60dfa1a48cc0, 4;
+    %store/vec4 v0x60dfa1a47690_0, 0, 64;
+    %ix/load 4, 2, 0;
+    %flag_set/imm 4, 0;
+    %load/vec4a v0x60dfa1a48cc0, 4;
+    %store/vec4 v0x60dfa1a48080_0, 0, 64;
+    %ix/load 4, 3, 0;
+    %flag_set/imm 4, 0;
+    %load/vec4a v0x60dfa1a48cc0, 4;
+    %store/vec4 v0x60dfa1a485c0_0, 0, 64;
+    %ix/load 4, 4, 0;
+    %flag_set/imm 4, 0;
+    %load/vec4a v0x60dfa1a48cc0, 4;
+    %store/vec4 v0x60dfa1a486a0_0, 0, 64;
+    %ix/load 4, 5, 0;
+    %flag_set/imm 4, 0;
+    %load/vec4a v0x60dfa1a48cc0, 4;
+    %store/vec4 v0x60dfa1a48780_0, 0, 64;
+    %ix/load 4, 6, 0;
+    %flag_set/imm 4, 0;
+    %load/vec4a v0x60dfa1a48cc0, 4;
+    %store/vec4 v0x60dfa1a48860_0, 0, 64;
+    %ix/load 4, 7, 0;
+    %flag_set/imm 4, 0;
+    %load/vec4a v0x60dfa1a48cc0, 4;
+    %store/vec4 v0x60dfa1a48940_0, 0, 64;
+    %ix/load 4, 8, 0;
+    %flag_set/imm 4, 0;
+    %load/vec4a v0x60dfa1a48cc0, 4;
+    %store/vec4 v0x60dfa1a48a20_0, 0, 64;
+    %ix/load 4, 9, 0;
+    %flag_set/imm 4, 0;
+    %load/vec4a v0x60dfa1a48cc0, 4;
+    %store/vec4 v0x60dfa1a48b00_0, 0, 64;
+    %ix/load 4, 10, 0;
+    %flag_set/imm 4, 0;
+    %load/vec4a v0x60dfa1a48cc0, 4;
+    %store/vec4 v0x60dfa1a477c0_0, 0, 64;
+    %ix/load 4, 11, 0;
+    %flag_set/imm 4, 0;
+    %load/vec4a v0x60dfa1a48cc0, 4;
+    %store/vec4 v0x60dfa1a478a0_0, 0, 64;
+    %ix/load 4, 12, 0;
+    %flag_set/imm 4, 0;
+    %load/vec4a v0x60dfa1a48cc0, 4;
+    %store/vec4 v0x60dfa1a47980_0, 0, 64;
+    %ix/load 4, 13, 0;
+    %flag_set/imm 4, 0;
+    %load/vec4a v0x60dfa1a48cc0, 4;
+    %store/vec4 v0x60dfa1a47a60_0, 0, 64;
+    %ix/load 4, 14, 0;
+    %flag_set/imm 4, 0;
+    %load/vec4a v0x60dfa1a48cc0, 4;
+    %store/vec4 v0x60dfa1a47b40_0, 0, 64;
+    %ix/load 4, 15, 0;
+    %flag_set/imm 4, 0;
+    %load/vec4a v0x60dfa1a48cc0, 4;
+    %store/vec4 v0x60dfa1a47c20_0, 0, 64;
+    %ix/load 4, 16, 0;
+    %flag_set/imm 4, 0;
+    %load/vec4a v0x60dfa1a48cc0, 4;
+    %store/vec4 v0x60dfa1a47d00_0, 0, 64;
+    %ix/load 4, 17, 0;
+    %flag_set/imm 4, 0;
+    %load/vec4a v0x60dfa1a48cc0, 4;
+    %store/vec4 v0x60dfa1a47de0_0, 0, 64;
+    %ix/load 4, 18, 0;
+    %flag_set/imm 4, 0;
+    %load/vec4a v0x60dfa1a48cc0, 4;
+    %store/vec4 v0x60dfa1a47ec0_0, 0, 64;
+    %ix/load 4, 19, 0;
+    %flag_set/imm 4, 0;
+    %load/vec4a v0x60dfa1a48cc0, 4;
+    %store/vec4 v0x60dfa1a47fa0_0, 0, 64;
+    %ix/load 4, 20, 0;
+    %flag_set/imm 4, 0;
+    %load/vec4a v0x60dfa1a48cc0, 4;
+    %store/vec4 v0x60dfa1a48160_0, 0, 64;
+    %ix/load 4, 21, 0;
+    %flag_set/imm 4, 0;
+    %load/vec4a v0x60dfa1a48cc0, 4;
+    %store/vec4 v0x60dfa1a48240_0, 0, 64;
+    %ix/load 4, 22, 0;
+    %flag_set/imm 4, 0;
+    %load/vec4a v0x60dfa1a48cc0, 4;
+    %store/vec4 v0x60dfa1a48320_0, 0, 64;
+    %ix/load 4, 23, 0;
+    %flag_set/imm 4, 0;
+    %load/vec4a v0x60dfa1a48cc0, 4;
+    %store/vec4 v0x60dfa1a48400_0, 0, 64;
+    %ix/load 4, 24, 0;
+    %flag_set/imm 4, 0;
+    %load/vec4a v0x60dfa1a48cc0, 4;
+    %store/vec4 v0x60dfa1a484e0_0, 0, 64;
+    %end;
+S_0x60dfa19bc670 .scope task, "load_golden" "load_golden" 3 178, 3 178 0, S_0x60dfa19be890;
+ .timescale -9 -11;
+TD_TESTBED_Theta.U_PATTERN_Theta.load_golden ;
+    %vpi_func 3 180 "$fscanf" 32, v0x60dfa1a474f0_0, "%h\012", v0x60dfa1a4a7f0_0 {0 0 0};
+    %store/vec4 v0x60dfa19e4080_0, 0, 32;
+    %vpi_func 3 181 "$fscanf" 32, v0x60dfa1a474f0_0, "%h\012", v0x60dfa1a48be0_0 {0 0 0};
+    %store/vec4 v0x60dfa19e4080_0, 0, 32;
+    %vpi_func 3 182 "$fscanf" 32, v0x60dfa1a474f0_0, "%h\012", v0x60dfa1a4a7f0_0 {0 0 0};
+    %store/vec4 v0x60dfa19e4080_0, 0, 32;
+    %vpi_func 3 183 "$fscanf" 32, v0x60dfa1a474f0_0, "%h\012", v0x60dfa1a4a570_0 {0 0 0};
+    %store/vec4 v0x60dfa19e4080_0, 0, 32;
+    %end;
+S_0x60dfa1a4af10 .scope module, "U_Theta" "Theta" 2 60, 4 1 0, S_0x60dfa19bf9a0;
+ .timescale -9 -11;
+    .port_info 0 /INPUT 64 "in_data_0";
+    .port_info 1 /INPUT 64 "in_data_1";
+    .port_info 2 /INPUT 64 "in_data_2";
+    .port_info 3 /INPUT 64 "in_data_3";
+    .port_info 4 /INPUT 64 "in_data_4";
+    .port_info 5 /INPUT 64 "in_data_5";
+    .port_info 6 /INPUT 64 "in_data_6";
+    .port_info 7 /INPUT 64 "in_data_7";
+    .port_info 8 /INPUT 64 "in_data_8";
+    .port_info 9 /INPUT 64 "in_data_9";
+    .port_info 10 /INPUT 64 "in_data_10";
+    .port_info 11 /INPUT 64 "in_data_11";
+    .port_info 12 /INPUT 64 "in_data_12";
+    .port_info 13 /INPUT 64 "in_data_13";
+    .port_info 14 /INPUT 64 "in_data_14";
+    .port_info 15 /INPUT 64 "in_data_15";
+    .port_info 16 /INPUT 64 "in_data_16";
+    .port_info 17 /INPUT 64 "in_data_17";
+    .port_info 18 /INPUT 64 "in_data_18";
+    .port_info 19 /INPUT 64 "in_data_19";
+    .port_info 20 /INPUT 64 "in_data_20";
+    .port_info 21 /INPUT 64 "in_data_21";
+    .port_info 22 /INPUT 64 "in_data_22";
+    .port_info 23 /INPUT 64 "in_data_23";
+    .port_info 24 /INPUT 64 "in_data_24";
+    .port_info 25 /OUTPUT 64 "out_data_0";
+    .port_info 26 /OUTPUT 64 "out_data_1";
+    .port_info 27 /OUTPUT 64 "out_data_2";
+    .port_info 28 /OUTPUT 64 "out_data_3";
+    .port_info 29 /OUTPUT 64 "out_data_4";
+    .port_info 30 /OUTPUT 64 "out_data_5";
+    .port_info 31 /OUTPUT 64 "out_data_6";
+    .port_info 32 /OUTPUT 64 "out_data_7";
+    .port_info 33 /OUTPUT 64 "out_data_8";
+    .port_info 34 /OUTPUT 64 "out_data_9";
+    .port_info 35 /OUTPUT 64 "out_data_10";
+    .port_info 36 /OUTPUT 64 "out_data_11";
+    .port_info 37 /OUTPUT 64 "out_data_12";
+    .port_info 38 /OUTPUT 64 "out_data_13";
+    .port_info 39 /OUTPUT 64 "out_data_14";
+    .port_info 40 /OUTPUT 64 "out_data_15";
+    .port_info 41 /OUTPUT 64 "out_data_16";
+    .port_info 42 /OUTPUT 64 "out_data_17";
+    .port_info 43 /OUTPUT 64 "out_data_18";
+    .port_info 44 /OUTPUT 64 "out_data_19";
+    .port_info 45 /OUTPUT 64 "out_data_20";
+    .port_info 46 /OUTPUT 64 "out_data_21";
+    .port_info 47 /OUTPUT 64 "out_data_22";
+    .port_info 48 /OUTPUT 64 "out_data_23";
+    .port_info 49 /OUTPUT 64 "out_data_24";
+L_0x60dfa1a24750 .functor XOR 64, v0x60dfa1a475b0_0, v0x60dfa1a48780_0, C4<0000000000000000000000000000000000000000000000000000000000000000>, C4<0000000000000000000000000000000000000000000000000000000000000000>;
+L_0x60dfa1a249e0 .functor XOR 64, L_0x60dfa1a24750, v0x60dfa1a477c0_0, C4<0000000000000000000000000000000000000000000000000000000000000000>, C4<0000000000000000000000000000000000000000000000000000000000000000>;
+L_0x60dfa1a54360 .functor XOR 64, L_0x60dfa1a249e0, v0x60dfa1a47c20_0, C4<0000000000000000000000000000000000000000000000000000000000000000>, C4<0000000000000000000000000000000000000000000000000000000000000000>;
+L_0x60dfa1a54420 .functor XOR 64, L_0x60dfa1a54360, v0x60dfa1a48160_0, C4<0000000000000000000000000000000000000000000000000000000000000000>, C4<0000000000000000000000000000000000000000000000000000000000000000>;
+L_0x60dfa1a544e0 .functor XOR 64, v0x60dfa1a47690_0, v0x60dfa1a48860_0, C4<0000000000000000000000000000000000000000000000000000000000000000>, C4<0000000000000000000000000000000000000000000000000000000000000000>;
+L_0x60dfa1a54550 .functor XOR 64, L_0x60dfa1a544e0, v0x60dfa1a478a0_0, C4<0000000000000000000000000000000000000000000000000000000000000000>, C4<0000000000000000000000000000000000000000000000000000000000000000>;
+L_0x60dfa1a54650 .functor XOR 64, L_0x60dfa1a54550, v0x60dfa1a47d00_0, C4<0000000000000000000000000000000000000000000000000000000000000000>, C4<0000000000000000000000000000000000000000000000000000000000000000>;
+L_0x60dfa1a54710 .functor XOR 64, L_0x60dfa1a54650, v0x60dfa1a48240_0, C4<0000000000000000000000000000000000000000000000000000000000000000>, C4<0000000000000000000000000000000000000000000000000000000000000000>;
+L_0x60dfa1a54820 .functor XOR 64, v0x60dfa1a48080_0, v0x60dfa1a48940_0, C4<0000000000000000000000000000000000000000000000000000000000000000>, C4<0000000000000000000000000000000000000000000000000000000000000000>;
+L_0x60dfa1a54890 .functor XOR 64, L_0x60dfa1a54820, v0x60dfa1a47980_0, C4<0000000000000000000000000000000000000000000000000000000000000000>, C4<0000000000000000000000000000000000000000000000000000000000000000>;
+L_0x60dfa1a549b0 .functor XOR 64, L_0x60dfa1a54890, v0x60dfa1a47de0_0, C4<0000000000000000000000000000000000000000000000000000000000000000>, C4<0000000000000000000000000000000000000000000000000000000000000000>;
+L_0x60dfa1a54a20 .functor XOR 64, L_0x60dfa1a549b0, v0x60dfa1a48320_0, C4<0000000000000000000000000000000000000000000000000000000000000000>, C4<0000000000000000000000000000000000000000000000000000000000000000>;
+L_0x60dfa1a54b50 .functor XOR 64, v0x60dfa1a485c0_0, v0x60dfa1a48a20_0, C4<0000000000000000000000000000000000000000000000000000000000000000>, C4<0000000000000000000000000000000000000000000000000000000000000000>;
+L_0x60dfa1a54bc0 .functor XOR 64, L_0x60dfa1a54b50, v0x60dfa1a47a60_0, C4<0000000000000000000000000000000000000000000000000000000000000000>, C4<0000000000000000000000000000000000000000000000000000000000000000>;
+L_0x60dfa1a54ae0 .functor XOR 64, L_0x60dfa1a54bc0, v0x60dfa1a47ec0_0, C4<0000000000000000000000000000000000000000000000000000000000000000>, C4<0000000000000000000000000000000000000000000000000000000000000000>;
+L_0x60dfa1a54d50 .functor XOR 64, L_0x60dfa1a54ae0, v0x60dfa1a48400_0, C4<0000000000000000000000000000000000000000000000000000000000000000>, C4<0000000000000000000000000000000000000000000000000000000000000000>;
+L_0x60dfa1a54ea0 .functor XOR 64, v0x60dfa1a486a0_0, v0x60dfa1a48b00_0, C4<0000000000000000000000000000000000000000000000000000000000000000>, C4<0000000000000000000000000000000000000000000000000000000000000000>;
+L_0x60dfa1a54f10 .functor XOR 64, L_0x60dfa1a54ea0, v0x60dfa1a47b40_0, C4<0000000000000000000000000000000000000000000000000000000000000000>, C4<0000000000000000000000000000000000000000000000000000000000000000>;
+L_0x60dfa1a55070 .functor XOR 64, L_0x60dfa1a54f10, v0x60dfa1a47fa0_0, C4<0000000000000000000000000000000000000000000000000000000000000000>, C4<0000000000000000000000000000000000000000000000000000000000000000>;
+L_0x60dfa1a55130 .functor XOR 64, L_0x60dfa1a55070, v0x60dfa1a484e0_0, C4<0000000000000000000000000000000000000000000000000000000000000000>, C4<0000000000000000000000000000000000000000000000000000000000000000>;
+L_0x60dfa1a554d0 .functor XOR 64, L_0x60dfa1a55130, L_0x60dfa1a55390, C4<0000000000000000000000000000000000000000000000000000000000000000>, C4<0000000000000000000000000000000000000000000000000000000000000000>;
+L_0x60dfa1a558f0 .functor XOR 64, L_0x60dfa1a54420, L_0x60dfa1a55770, C4<0000000000000000000000000000000000000000000000000000000000000000>, C4<0000000000000000000000000000000000000000000000000000000000000000>;
+L_0x60dfa1a55de0 .functor XOR 64, L_0x60dfa1a54710, L_0x60dfa1a55ca0, C4<0000000000000000000000000000000000000000000000000000000000000000>, C4<0000000000000000000000000000000000000000000000000000000000000000>;
+L_0x60dfa1a56100 .functor XOR 64, L_0x60dfa1a54a20, L_0x60dfa1a55ff0, C4<0000000000000000000000000000000000000000000000000000000000000000>, C4<0000000000000000000000000000000000000000000000000000000000000000>;
+L_0x60dfa1a56090 .functor XOR 64, L_0x60dfa1a54d50, L_0x60dfa1a56490, C4<0000000000000000000000000000000000000000000000000000000000000000>, C4<0000000000000000000000000000000000000000000000000000000000000000>;
+L_0x60dfa1a56610 .functor XOR 64, v0x60dfa1a475b0_0, L_0x60dfa1a554d0, C4<0000000000000000000000000000000000000000000000000000000000000000>, C4<0000000000000000000000000000000000000000000000000000000000000000>;
+L_0x60dfa1a567f0 .functor XOR 64, v0x60dfa1a48780_0, L_0x60dfa1a554d0, C4<0000000000000000000000000000000000000000000000000000000000000000>, C4<0000000000000000000000000000000000000000000000000000000000000000>;
+L_0x60dfa1a568f0 .functor XOR 64, v0x60dfa1a477c0_0, L_0x60dfa1a554d0, C4<0000000000000000000000000000000000000000000000000000000000000000>, C4<0000000000000000000000000000000000000000000000000000000000000000>;
+L_0x60dfa1a56b70 .functor XOR 64, v0x60dfa1a47c20_0, L_0x60dfa1a554d0, C4<0000000000000000000000000000000000000000000000000000000000000000>, C4<0000000000000000000000000000000000000000000000000000000000000000>;
+L_0x60dfa1a56c70 .functor XOR 64, v0x60dfa1a48160_0, L_0x60dfa1a554d0, C4<0000000000000000000000000000000000000000000000000000000000000000>, C4<0000000000000000000000000000000000000000000000000000000000000000>;
+L_0x60dfa1a56e70 .functor XOR 64, v0x60dfa1a47690_0, L_0x60dfa1a558f0, C4<0000000000000000000000000000000000000000000000000000000000000000>, C4<0000000000000000000000000000000000000000000000000000000000000000>;
+L_0x60dfa1a56f70 .functor XOR 64, v0x60dfa1a48860_0, L_0x60dfa1a558f0, C4<0000000000000000000000000000000000000000000000000000000000000000>, C4<0000000000000000000000000000000000000000000000000000000000000000>;
+L_0x60dfa1a57180 .functor XOR 64, v0x60dfa1a478a0_0, L_0x60dfa1a558f0, C4<0000000000000000000000000000000000000000000000000000000000000000>, C4<0000000000000000000000000000000000000000000000000000000000000000>;
+L_0x60dfa1a57310 .functor XOR 64, v0x60dfa1a47d00_0, L_0x60dfa1a558f0, C4<0000000000000000000000000000000000000000000000000000000000000000>, C4<0000000000000000000000000000000000000000000000000000000000000000>;
+L_0x60dfa1a57530 .functor XOR 64, v0x60dfa1a48240_0, L_0x60dfa1a558f0, C4<0000000000000000000000000000000000000000000000000000000000000000>, C4<0000000000000000000000000000000000000000000000000000000000000000>;
+L_0x60dfa1a57630 .functor XOR 64, v0x60dfa1a48080_0, L_0x60dfa1a55de0, C4<0000000000000000000000000000000000000000000000000000000000000000>, C4<0000000000000000000000000000000000000000000000000000000000000000>;
+L_0x60dfa1a57410 .functor XOR 64, v0x60dfa1a48940_0, L_0x60dfa1a55de0, C4<0000000000000000000000000000000000000000000000000000000000000000>, C4<0000000000000000000000000000000000000000000000000000000000000000>;
+L_0x60dfa1a57860 .functor XOR 64, v0x60dfa1a47980_0, L_0x60dfa1a55de0, C4<0000000000000000000000000000000000000000000000000000000000000000>, C4<0000000000000000000000000000000000000000000000000000000000000000>;
+L_0x60dfa1a57b30 .functor XOR 64, v0x60dfa1a47de0_0, L_0x60dfa1a55de0, C4<0000000000000000000000000000000000000000000000000000000000000000>, C4<0000000000000000000000000000000000000000000000000000000000000000>;
+L_0x60dfa1a57c50 .functor XOR 64, v0x60dfa1a48320_0, L_0x60dfa1a55de0, C4<0000000000000000000000000000000000000000000000000000000000000000>, C4<0000000000000000000000000000000000000000000000000000000000000000>;
+L_0x60dfa1a57ec0 .functor XOR 64, v0x60dfa1a485c0_0, L_0x60dfa1a56100, C4<0000000000000000000000000000000000000000000000000000000000000000>, C4<0000000000000000000000000000000000000000000000000000000000000000>;
+L_0x60dfa1a57fe0 .functor XOR 64, v0x60dfa1a48a20_0, L_0x60dfa1a56100, C4<0000000000000000000000000000000000000000000000000000000000000000>, C4<0000000000000000000000000000000000000000000000000000000000000000>;
+L_0x60dfa1a58260 .functor XOR 64, v0x60dfa1a47a60_0, L_0x60dfa1a56100, C4<0000000000000000000000000000000000000000000000000000000000000000>, C4<0000000000000000000000000000000000000000000000000000000000000000>;
+L_0x60dfa1a58410 .functor XOR 64, v0x60dfa1a47ec0_0, L_0x60dfa1a56100, C4<0000000000000000000000000000000000000000000000000000000000000000>, C4<0000000000000000000000000000000000000000000000000000000000000000>;
+L_0x60dfa1a586a0 .functor XOR 64, v0x60dfa1a48400_0, L_0x60dfa1a56100, C4<0000000000000000000000000000000000000000000000000000000000000000>, C4<0000000000000000000000000000000000000000000000000000000000000000>;
+L_0x60dfa1a587c0 .functor XOR 64, v0x60dfa1a486a0_0, L_0x60dfa1a56090, C4<0000000000000000000000000000000000000000000000000000000000000000>, C4<0000000000000000000000000000000000000000000000000000000000000000>;
+L_0x60dfa1a58a60 .functor XOR 64, v0x60dfa1a48b00_0, L_0x60dfa1a56090, C4<0000000000000000000000000000000000000000000000000000000000000000>, C4<0000000000000000000000000000000000000000000000000000000000000000>;
+L_0x60dfa1a58b80 .functor XOR 64, v0x60dfa1a47b40_0, L_0x60dfa1a56090, C4<0000000000000000000000000000000000000000000000000000000000000000>, C4<0000000000000000000000000000000000000000000000000000000000000000>;
+L_0x60dfa1a58ec0 .functor XOR 64, v0x60dfa1a47fa0_0, L_0x60dfa1a56090, C4<0000000000000000000000000000000000000000000000000000000000000000>, C4<0000000000000000000000000000000000000000000000000000000000000000>;
+L_0x60dfa1a58fe0 .functor XOR 64, v0x60dfa1a484e0_0, L_0x60dfa1a56090, C4<0000000000000000000000000000000000000000000000000000000000000000>, C4<0000000000000000000000000000000000000000000000000000000000000000>;
+v0x60dfa1a4b580_0 .net *"_ivl_0", 63 0, L_0x60dfa1a24750;  1 drivers
+v0x60dfa1a4b660_0 .net *"_ivl_10", 63 0, L_0x60dfa1a54550;  1 drivers
+v0x60dfa1a4b740_0 .net *"_ivl_12", 63 0, L_0x60dfa1a54650;  1 drivers
+v0x60dfa1a4b800_0 .net *"_ivl_16", 63 0, L_0x60dfa1a54820;  1 drivers
+v0x60dfa1a4b8e0_0 .net *"_ivl_18", 63 0, L_0x60dfa1a54890;  1 drivers
+v0x60dfa1a4ba10_0 .net *"_ivl_2", 63 0, L_0x60dfa1a249e0;  1 drivers
+v0x60dfa1a4baf0_0 .net *"_ivl_20", 63 0, L_0x60dfa1a549b0;  1 drivers
+v0x60dfa1a4bbd0_0 .net *"_ivl_24", 63 0, L_0x60dfa1a54b50;  1 drivers
+v0x60dfa1a4bcb0_0 .net *"_ivl_26", 63 0, L_0x60dfa1a54bc0;  1 drivers
+v0x60dfa1a4bd90_0 .net *"_ivl_28", 63 0, L_0x60dfa1a54ae0;  1 drivers
+v0x60dfa1a4be70_0 .net *"_ivl_32", 63 0, L_0x60dfa1a54ea0;  1 drivers
+v0x60dfa1a4bf50_0 .net *"_ivl_34", 63 0, L_0x60dfa1a54f10;  1 drivers
+v0x60dfa1a4c030_0 .net *"_ivl_36", 63 0, L_0x60dfa1a55070;  1 drivers
+v0x60dfa1a4c110_0 .net *"_ivl_4", 63 0, L_0x60dfa1a54360;  1 drivers
+v0x60dfa1a4c1f0_0 .net *"_ivl_41", 62 0, L_0x60dfa1a54fd0;  1 drivers
+v0x60dfa1a4c2d0_0 .net *"_ivl_43", 0 0, L_0x60dfa1a552f0;  1 drivers
+v0x60dfa1a4c3b0_0 .net *"_ivl_44", 63 0, L_0x60dfa1a55390;  1 drivers
+v0x60dfa1a4c490_0 .net *"_ivl_49", 62 0, L_0x60dfa1a555e0;  1 drivers
+v0x60dfa1a4c570_0 .net *"_ivl_51", 0 0, L_0x60dfa1a556d0;  1 drivers
+v0x60dfa1a4c650_0 .net *"_ivl_52", 63 0, L_0x60dfa1a55770;  1 drivers
+v0x60dfa1a4c730_0 .net *"_ivl_57", 62 0, L_0x60dfa1a55ac0;  1 drivers
+v0x60dfa1a4c810_0 .net *"_ivl_59", 0 0, L_0x60dfa1a55bb0;  1 drivers
+v0x60dfa1a4c8f0_0 .net *"_ivl_60", 63 0, L_0x60dfa1a55ca0;  1 drivers
+v0x60dfa1a4c9d0_0 .net *"_ivl_65", 62 0, L_0x60dfa1a55e50;  1 drivers
+v0x60dfa1a4cab0_0 .net *"_ivl_67", 0 0, L_0x60dfa1a55f50;  1 drivers
+v0x60dfa1a4cb90_0 .net *"_ivl_68", 63 0, L_0x60dfa1a55ff0;  1 drivers
+v0x60dfa1a4cc70_0 .net *"_ivl_73", 62 0, L_0x60dfa1a56240;  1 drivers
+v0x60dfa1a4cd50_0 .net *"_ivl_75", 0 0, L_0x60dfa1a562e0;  1 drivers
+v0x60dfa1a4ce30_0 .net *"_ivl_76", 63 0, L_0x60dfa1a56490;  1 drivers
+v0x60dfa1a4cf10_0 .net *"_ivl_8", 63 0, L_0x60dfa1a544e0;  1 drivers
+v0x60dfa1a4cff0_0 .net "_t_T_11", 63 0, L_0x60dfa1a558f0;  1 drivers
+v0x60dfa1a4d0d0_0 .net "_t_T_17", 63 0, L_0x60dfa1a55de0;  1 drivers
+v0x60dfa1a4d1b0_0 .net "_t_T_23", 63 0, L_0x60dfa1a56100;  1 drivers
+v0x60dfa1a4d4a0_0 .net "_t_T_29", 63 0, L_0x60dfa1a56090;  1 drivers
+v0x60dfa1a4d580_0 .net "_t_T_5", 63 0, L_0x60dfa1a554d0;  1 drivers
+v0x60dfa1a4d660_0 .net "bc_0", 63 0, L_0x60dfa1a54420;  1 drivers
+v0x60dfa1a4d740_0 .net "bc_1", 63 0, L_0x60dfa1a54710;  1 drivers
+v0x60dfa1a4d820_0 .net "bc_2", 63 0, L_0x60dfa1a54a20;  1 drivers
+v0x60dfa1a4d900_0 .net "bc_3", 63 0, L_0x60dfa1a54d50;  1 drivers
+v0x60dfa1a4d9e0_0 .net "bc_4", 63 0, L_0x60dfa1a55130;  1 drivers
+v0x60dfa1a4dac0_0 .net "in_data_0", 63 0, v0x60dfa1a475b0_0;  alias, 1 drivers
+v0x60dfa1a4db80_0 .net "in_data_1", 63 0, v0x60dfa1a47690_0;  alias, 1 drivers
+v0x60dfa1a4dc20_0 .net "in_data_10", 63 0, v0x60dfa1a477c0_0;  alias, 1 drivers
+v0x60dfa1a4dcc0_0 .net "in_data_11", 63 0, v0x60dfa1a478a0_0;  alias, 1 drivers
+v0x60dfa1a4dd90_0 .net "in_data_12", 63 0, v0x60dfa1a47980_0;  alias, 1 drivers
+v0x60dfa1a4de60_0 .net "in_data_13", 63 0, v0x60dfa1a47a60_0;  alias, 1 drivers
+v0x60dfa1a4df30_0 .net "in_data_14", 63 0, v0x60dfa1a47b40_0;  alias, 1 drivers
+v0x60dfa1a4e000_0 .net "in_data_15", 63 0, v0x60dfa1a47c20_0;  alias, 1 drivers
+v0x60dfa1a4e0d0_0 .net "in_data_16", 63 0, v0x60dfa1a47d00_0;  alias, 1 drivers
+v0x60dfa1a4e1a0_0 .net "in_data_17", 63 0, v0x60dfa1a47de0_0;  alias, 1 drivers
+v0x60dfa1a4e270_0 .net "in_data_18", 63 0, v0x60dfa1a47ec0_0;  alias, 1 drivers
+v0x60dfa1a4e340_0 .net "in_data_19", 63 0, v0x60dfa1a47fa0_0;  alias, 1 drivers
+v0x60dfa1a4e410_0 .net "in_data_2", 63 0, v0x60dfa1a48080_0;  alias, 1 drivers
+v0x60dfa1a4e4e0_0 .net "in_data_20", 63 0, v0x60dfa1a48160_0;  alias, 1 drivers
+v0x60dfa1a4e5b0_0 .net "in_data_21", 63 0, v0x60dfa1a48240_0;  alias, 1 drivers
+v0x60dfa1a4e680_0 .net "in_data_22", 63 0, v0x60dfa1a48320_0;  alias, 1 drivers
+v0x60dfa1a4e750_0 .net "in_data_23", 63 0, v0x60dfa1a48400_0;  alias, 1 drivers
+v0x60dfa1a4e820_0 .net "in_data_24", 63 0, v0x60dfa1a484e0_0;  alias, 1 drivers
+v0x60dfa1a4e8f0_0 .net "in_data_3", 63 0, v0x60dfa1a485c0_0;  alias, 1 drivers
+v0x60dfa1a4e9c0_0 .net "in_data_4", 63 0, v0x60dfa1a486a0_0;  alias, 1 drivers
+v0x60dfa1a4ea90_0 .net "in_data_5", 63 0, v0x60dfa1a48780_0;  alias, 1 drivers
+v0x60dfa1a4eb60_0 .net "in_data_6", 63 0, v0x60dfa1a48860_0;  alias, 1 drivers
+v0x60dfa1a4ec30_0 .net "in_data_7", 63 0, v0x60dfa1a48940_0;  alias, 1 drivers
+v0x60dfa1a4ed00_0 .net "in_data_8", 63 0, v0x60dfa1a48a20_0;  alias, 1 drivers
+v0x60dfa1a4edd0_0 .net "in_data_9", 63 0, v0x60dfa1a48b00_0;  alias, 1 drivers
+v0x60dfa1a4f2b0_0 .net "out_data_0", 63 0, L_0x60dfa1a56610;  alias, 1 drivers
+v0x60dfa1a4f380_0 .net "out_data_1", 63 0, L_0x60dfa1a56e70;  alias, 1 drivers
+v0x60dfa1a4f450_0 .net "out_data_10", 63 0, L_0x60dfa1a568f0;  alias, 1 drivers
+v0x60dfa1a4f520_0 .net "out_data_11", 63 0, L_0x60dfa1a57180;  alias, 1 drivers
+v0x60dfa1a4f5f0_0 .net "out_data_12", 63 0, L_0x60dfa1a57860;  alias, 1 drivers
+v0x60dfa1a4f6c0_0 .net "out_data_13", 63 0, L_0x60dfa1a58260;  alias, 1 drivers
+v0x60dfa1a4f790_0 .net "out_data_14", 63 0, L_0x60dfa1a58b80;  alias, 1 drivers
+v0x60dfa1a4f860_0 .net "out_data_15", 63 0, L_0x60dfa1a56b70;  alias, 1 drivers
+v0x60dfa1a4f930_0 .net "out_data_16", 63 0, L_0x60dfa1a57310;  alias, 1 drivers
+v0x60dfa1a4fa00_0 .net "out_data_17", 63 0, L_0x60dfa1a57b30;  alias, 1 drivers
+v0x60dfa1a4fad0_0 .net "out_data_18", 63 0, L_0x60dfa1a58410;  alias, 1 drivers
+v0x60dfa1a4fba0_0 .net "out_data_19", 63 0, L_0x60dfa1a58ec0;  alias, 1 drivers
+v0x60dfa1a4fc70_0 .net "out_data_2", 63 0, L_0x60dfa1a57630;  alias, 1 drivers
+v0x60dfa1a4fd40_0 .net "out_data_20", 63 0, L_0x60dfa1a56c70;  alias, 1 drivers
+v0x60dfa1a4fe10_0 .net "out_data_21", 63 0, L_0x60dfa1a57530;  alias, 1 drivers
+v0x60dfa1a4fee0_0 .net "out_data_22", 63 0, L_0x60dfa1a57c50;  alias, 1 drivers
+v0x60dfa1a4ffb0_0 .net "out_data_23", 63 0, L_0x60dfa1a586a0;  alias, 1 drivers
+v0x60dfa1a50080_0 .net "out_data_24", 63 0, L_0x60dfa1a58fe0;  alias, 1 drivers
+v0x60dfa1a50150_0 .net "out_data_3", 63 0, L_0x60dfa1a57ec0;  alias, 1 drivers
+v0x60dfa1a50220_0 .net "out_data_4", 63 0, L_0x60dfa1a587c0;  alias, 1 drivers
+v0x60dfa1a502f0_0 .net "out_data_5", 63 0, L_0x60dfa1a567f0;  alias, 1 drivers
+v0x60dfa1a503c0_0 .net "out_data_6", 63 0, L_0x60dfa1a56f70;  alias, 1 drivers
+v0x60dfa1a50490_0 .net "out_data_7", 63 0, L_0x60dfa1a57410;  alias, 1 drivers
+v0x60dfa1a50560_0 .net "out_data_8", 63 0, L_0x60dfa1a57fe0;  alias, 1 drivers
+v0x60dfa1a50630_0 .net "out_data_9", 63 0, L_0x60dfa1a58a60;  alias, 1 drivers
+L_0x60dfa1a54fd0 .part L_0x60dfa1a54710, 0, 63;
+L_0x60dfa1a552f0 .part L_0x60dfa1a54710, 63, 1;
+L_0x60dfa1a55390 .concat [ 1 63 0 0], L_0x60dfa1a552f0, L_0x60dfa1a54fd0;
+L_0x60dfa1a555e0 .part L_0x60dfa1a54a20, 0, 63;
+L_0x60dfa1a556d0 .part L_0x60dfa1a54a20, 63, 1;
+L_0x60dfa1a55770 .concat [ 1 63 0 0], L_0x60dfa1a556d0, L_0x60dfa1a555e0;
+L_0x60dfa1a55ac0 .part L_0x60dfa1a54d50, 0, 63;
+L_0x60dfa1a55bb0 .part L_0x60dfa1a54d50, 63, 1;
+L_0x60dfa1a55ca0 .concat [ 1 63 0 0], L_0x60dfa1a55bb0, L_0x60dfa1a55ac0;
+L_0x60dfa1a55e50 .part L_0x60dfa1a55130, 0, 63;
+L_0x60dfa1a55f50 .part L_0x60dfa1a55130, 63, 1;
+L_0x60dfa1a55ff0 .concat [ 1 63 0 0], L_0x60dfa1a55f50, L_0x60dfa1a55e50;
+L_0x60dfa1a56240 .part L_0x60dfa1a54420, 0, 63;
+L_0x60dfa1a562e0 .part L_0x60dfa1a54420, 63, 1;
+L_0x60dfa1a56490 .concat [ 1 63 0 0], L_0x60dfa1a562e0, L_0x60dfa1a56240;
+    .scope S_0x60dfa19be890;
+T_3 ;
+    %delay 500, 0;
+    %load/vec4 v0x60dfa19c75a0_0;
+    %inv;
+    %store/vec4 v0x60dfa19c75a0_0, 0, 1;
+    %jmp T_3;
+    .thread T_3;
+    .scope S_0x60dfa19be890;
+T_4 ;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x60dfa19c75a0_0, 0, 1;
+    %end;
+    .thread T_4;
+    .scope S_0x60dfa19be890;
+T_5 ;
+    %vpi_func 3 160 "$fopen" 32, "./testcase/theta_tb.txt", "r" {0 0 0};
+    %store/vec4 v0x60dfa1a474f0_0, 0, 32;
+    %wait E_0x60dfa1955ec0;
+    %pushi/vec4 0, 0, 32;
+    %store/vec4 v0x60dfa1a4a710_0, 0, 32;
+T_5.0 ;
+    %load/vec4 v0x60dfa1a4a710_0;
+    %cmpi/s 15, 0, 32;
+    %jmp/0xz T_5.1, 5;
+    %fork TD_TESTBED_Theta.U_PATTERN_Theta.load_golden, S_0x60dfa19bc670;
+    %join;
+    %fork TD_TESTBED_Theta.U_PATTERN_Theta.input_task, S_0x60dfa19b60b0;
+    %join;
+    %fork TD_TESTBED_Theta.U_PATTERN_Theta.check_answer, S_0x60dfa19bd780;
+    %join;
+    %wait E_0x60dfa1955ec0;
+    %load/vec4 v0x60dfa1a4a710_0;
+    %addi 1, 0, 32;
+    %store/vec4 v0x60dfa1a4a710_0, 0, 32;
+    %jmp T_5.0;
+T_5.1 ;
+    %delay 100000, 0;
+    %vpi_call 3 169 "$display", "Pass" {0 0 0};
+    %vpi_call 3 170 "$finish" {0 0 0};
+    %end;
+    .thread T_5;
+    .scope S_0x60dfa19be890;
+T_6 ;
+    %wait E_0x60dfa194fc80;
+    %load/vec4 v0x60dfa1a48be0_0;
+    %parti/s 64, 0, 2;
+    %ix/load 4, 24, 0;
+    %flag_set/imm 4, 0;
+    %store/vec4a v0x60dfa1a48cc0, 4, 0;
+    %load/vec4 v0x60dfa1a48be0_0;
+    %parti/s 64, 64, 8;
+    %ix/load 4, 19, 0;
+    %flag_set/imm 4, 0;
+    %store/vec4a v0x60dfa1a48cc0, 4, 0;
+    %load/vec4 v0x60dfa1a48be0_0;
+    %parti/s 64, 128, 9;
+    %ix/load 4, 14, 0;
+    %flag_set/imm 4, 0;
+    %store/vec4a v0x60dfa1a48cc0, 4, 0;
+    %load/vec4 v0x60dfa1a48be0_0;
+    %parti/s 64, 192, 9;
+    %ix/load 4, 9, 0;
+    %flag_set/imm 4, 0;
+    %store/vec4a v0x60dfa1a48cc0, 4, 0;
+    %load/vec4 v0x60dfa1a48be0_0;
+    %parti/s 64, 256, 10;
+    %ix/load 4, 4, 0;
+    %flag_set/imm 4, 0;
+    %store/vec4a v0x60dfa1a48cc0, 4, 0;
+    %load/vec4 v0x60dfa1a48be0_0;
+    %parti/s 64, 320, 10;
+    %ix/load 4, 23, 0;
+    %flag_set/imm 4, 0;
+    %store/vec4a v0x60dfa1a48cc0, 4, 0;
+    %load/vec4 v0x60dfa1a48be0_0;
+    %parti/s 64, 384, 10;
+    %ix/load 4, 18, 0;
+    %flag_set/imm 4, 0;
+    %store/vec4a v0x60dfa1a48cc0, 4, 0;
+    %load/vec4 v0x60dfa1a48be0_0;
+    %parti/s 64, 448, 10;
+    %ix/load 4, 13, 0;
+    %flag_set/imm 4, 0;
+    %store/vec4a v0x60dfa1a48cc0, 4, 0;
+    %load/vec4 v0x60dfa1a48be0_0;
+    %parti/s 64, 512, 11;
+    %ix/load 4, 8, 0;
+    %flag_set/imm 4, 0;
+    %store/vec4a v0x60dfa1a48cc0, 4, 0;
+    %load/vec4 v0x60dfa1a48be0_0;
+    %parti/s 64, 576, 11;
+    %ix/load 4, 3, 0;
+    %flag_set/imm 4, 0;
+    %store/vec4a v0x60dfa1a48cc0, 4, 0;
+    %load/vec4 v0x60dfa1a48be0_0;
+    %parti/s 64, 640, 11;
+    %ix/load 4, 22, 0;
+    %flag_set/imm 4, 0;
+    %store/vec4a v0x60dfa1a48cc0, 4, 0;
+    %load/vec4 v0x60dfa1a48be0_0;
+    %parti/s 64, 704, 11;
+    %ix/load 4, 17, 0;
+    %flag_set/imm 4, 0;
+    %store/vec4a v0x60dfa1a48cc0, 4, 0;
+    %load/vec4 v0x60dfa1a48be0_0;
+    %parti/s 64, 768, 11;
+    %ix/load 4, 12, 0;
+    %flag_set/imm 4, 0;
+    %store/vec4a v0x60dfa1a48cc0, 4, 0;
+    %load/vec4 v0x60dfa1a48be0_0;
+    %parti/s 64, 832, 11;
+    %ix/load 4, 7, 0;
+    %flag_set/imm 4, 0;
+    %store/vec4a v0x60dfa1a48cc0, 4, 0;
+    %load/vec4 v0x60dfa1a48be0_0;
+    %parti/s 64, 896, 11;
+    %ix/load 4, 2, 0;
+    %flag_set/imm 4, 0;
+    %store/vec4a v0x60dfa1a48cc0, 4, 0;
+    %load/vec4 v0x60dfa1a48be0_0;
+    %parti/s 64, 960, 11;
+    %ix/load 4, 21, 0;
+    %flag_set/imm 4, 0;
+    %store/vec4a v0x60dfa1a48cc0, 4, 0;
+    %load/vec4 v0x60dfa1a48be0_0;
+    %parti/s 64, 1024, 12;
+    %ix/load 4, 16, 0;
+    %flag_set/imm 4, 0;
+    %store/vec4a v0x60dfa1a48cc0, 4, 0;
+    %load/vec4 v0x60dfa1a48be0_0;
+    %parti/s 64, 1088, 12;
+    %ix/load 4, 11, 0;
+    %flag_set/imm 4, 0;
+    %store/vec4a v0x60dfa1a48cc0, 4, 0;
+    %load/vec4 v0x60dfa1a48be0_0;
+    %parti/s 64, 1152, 12;
+    %ix/load 4, 6, 0;
+    %flag_set/imm 4, 0;
+    %store/vec4a v0x60dfa1a48cc0, 4, 0;
+    %load/vec4 v0x60dfa1a48be0_0;
+    %parti/s 64, 1216, 12;
+    %ix/load 4, 1, 0;
+    %flag_set/imm 4, 0;
+    %store/vec4a v0x60dfa1a48cc0, 4, 0;
+    %load/vec4 v0x60dfa1a48be0_0;
+    %parti/s 64, 1280, 12;
+    %ix/load 4, 20, 0;
+    %flag_set/imm 4, 0;
+    %store/vec4a v0x60dfa1a48cc0, 4, 0;
+    %load/vec4 v0x60dfa1a48be0_0;
+    %parti/s 64, 1344, 12;
+    %ix/load 4, 15, 0;
+    %flag_set/imm 4, 0;
+    %store/vec4a v0x60dfa1a48cc0, 4, 0;
+    %load/vec4 v0x60dfa1a48be0_0;
+    %parti/s 64, 1408, 12;
+    %ix/load 4, 10, 0;
+    %flag_set/imm 4, 0;
+    %store/vec4a v0x60dfa1a48cc0, 4, 0;
+    %load/vec4 v0x60dfa1a48be0_0;
+    %parti/s 64, 1472, 12;
+    %ix/load 4, 5, 0;
+    %flag_set/imm 4, 0;
+    %store/vec4a v0x60dfa1a48cc0, 4, 0;
+    %load/vec4 v0x60dfa1a48be0_0;
+    %parti/s 64, 1536, 12;
+    %ix/load 4, 0, 0;
+    %flag_set/imm 4, 0;
+    %store/vec4a v0x60dfa1a48cc0, 4, 0;
+    %load/vec4 v0x60dfa1a4a570_0;
+    %parti/s 64, 0, 2;
+    %ix/load 4, 24, 0;
+    %flag_set/imm 4, 0;
+    %store/vec4a v0x60dfa1a4a650, 4, 0;
+    %load/vec4 v0x60dfa1a4a570_0;
+    %parti/s 64, 64, 8;
+    %ix/load 4, 19, 0;
+    %flag_set/imm 4, 0;
+    %store/vec4a v0x60dfa1a4a650, 4, 0;
+    %load/vec4 v0x60dfa1a4a570_0;
+    %parti/s 64, 128, 9;
+    %ix/load 4, 14, 0;
+    %flag_set/imm 4, 0;
+    %store/vec4a v0x60dfa1a4a650, 4, 0;
+    %load/vec4 v0x60dfa1a4a570_0;
+    %parti/s 64, 192, 9;
+    %ix/load 4, 9, 0;
+    %flag_set/imm 4, 0;
+    %store/vec4a v0x60dfa1a4a650, 4, 0;
+    %load/vec4 v0x60dfa1a4a570_0;
+    %parti/s 64, 256, 10;
+    %ix/load 4, 4, 0;
+    %flag_set/imm 4, 0;
+    %store/vec4a v0x60dfa1a4a650, 4, 0;
+    %load/vec4 v0x60dfa1a4a570_0;
+    %parti/s 64, 320, 10;
+    %ix/load 4, 23, 0;
+    %flag_set/imm 4, 0;
+    %store/vec4a v0x60dfa1a4a650, 4, 0;
+    %load/vec4 v0x60dfa1a4a570_0;
+    %parti/s 64, 384, 10;
+    %ix/load 4, 18, 0;
+    %flag_set/imm 4, 0;
+    %store/vec4a v0x60dfa1a4a650, 4, 0;
+    %load/vec4 v0x60dfa1a4a570_0;
+    %parti/s 64, 448, 10;
+    %ix/load 4, 13, 0;
+    %flag_set/imm 4, 0;
+    %store/vec4a v0x60dfa1a4a650, 4, 0;
+    %load/vec4 v0x60dfa1a4a570_0;
+    %parti/s 64, 512, 11;
+    %ix/load 4, 8, 0;
+    %flag_set/imm 4, 0;
+    %store/vec4a v0x60dfa1a4a650, 4, 0;
+    %load/vec4 v0x60dfa1a4a570_0;
+    %parti/s 64, 576, 11;
+    %ix/load 4, 3, 0;
+    %flag_set/imm 4, 0;
+    %store/vec4a v0x60dfa1a4a650, 4, 0;
+    %load/vec4 v0x60dfa1a4a570_0;
+    %parti/s 64, 640, 11;
+    %ix/load 4, 22, 0;
+    %flag_set/imm 4, 0;
+    %store/vec4a v0x60dfa1a4a650, 4, 0;
+    %load/vec4 v0x60dfa1a4a570_0;
+    %parti/s 64, 704, 11;
+    %ix/load 4, 17, 0;
+    %flag_set/imm 4, 0;
+    %store/vec4a v0x60dfa1a4a650, 4, 0;
+    %load/vec4 v0x60dfa1a4a570_0;
+    %parti/s 64, 768, 11;
+    %ix/load 4, 12, 0;
+    %flag_set/imm 4, 0;
+    %store/vec4a v0x60dfa1a4a650, 4, 0;
+    %load/vec4 v0x60dfa1a4a570_0;
+    %parti/s 64, 832, 11;
+    %ix/load 4, 7, 0;
+    %flag_set/imm 4, 0;
+    %store/vec4a v0x60dfa1a4a650, 4, 0;
+    %load/vec4 v0x60dfa1a4a570_0;
+    %parti/s 64, 896, 11;
+    %ix/load 4, 2, 0;
+    %flag_set/imm 4, 0;
+    %store/vec4a v0x60dfa1a4a650, 4, 0;
+    %load/vec4 v0x60dfa1a4a570_0;
+    %parti/s 64, 960, 11;
+    %ix/load 4, 21, 0;
+    %flag_set/imm 4, 0;
+    %store/vec4a v0x60dfa1a4a650, 4, 0;
+    %load/vec4 v0x60dfa1a4a570_0;
+    %parti/s 64, 1024, 12;
+    %ix/load 4, 16, 0;
+    %flag_set/imm 4, 0;
+    %store/vec4a v0x60dfa1a4a650, 4, 0;
+    %load/vec4 v0x60dfa1a4a570_0;
+    %parti/s 64, 1088, 12;
+    %ix/load 4, 11, 0;
+    %flag_set/imm 4, 0;
+    %store/vec4a v0x60dfa1a4a650, 4, 0;
+    %load/vec4 v0x60dfa1a4a570_0;
+    %parti/s 64, 1152, 12;
+    %ix/load 4, 6, 0;
+    %flag_set/imm 4, 0;
+    %store/vec4a v0x60dfa1a4a650, 4, 0;
+    %load/vec4 v0x60dfa1a4a570_0;
+    %parti/s 64, 1216, 12;
+    %ix/load 4, 1, 0;
+    %flag_set/imm 4, 0;
+    %store/vec4a v0x60dfa1a4a650, 4, 0;
+    %load/vec4 v0x60dfa1a4a570_0;
+    %parti/s 64, 1280, 12;
+    %ix/load 4, 20, 0;
+    %flag_set/imm 4, 0;
+    %store/vec4a v0x60dfa1a4a650, 4, 0;
+    %load/vec4 v0x60dfa1a4a570_0;
+    %parti/s 64, 1344, 12;
+    %ix/load 4, 15, 0;
+    %flag_set/imm 4, 0;
+    %store/vec4a v0x60dfa1a4a650, 4, 0;
+    %load/vec4 v0x60dfa1a4a570_0;
+    %parti/s 64, 1408, 12;
+    %ix/load 4, 10, 0;
+    %flag_set/imm 4, 0;
+    %store/vec4a v0x60dfa1a4a650, 4, 0;
+    %load/vec4 v0x60dfa1a4a570_0;
+    %parti/s 64, 1472, 12;
+    %ix/load 4, 5, 0;
+    %flag_set/imm 4, 0;
+    %store/vec4a v0x60dfa1a4a650, 4, 0;
+    %load/vec4 v0x60dfa1a4a570_0;
+    %parti/s 64, 1536, 12;
+    %ix/load 4, 0, 0;
+    %flag_set/imm 4, 0;
+    %store/vec4a v0x60dfa1a4a650, 4, 0;
+    %jmp T_6;
+    .thread T_6, $push;
+    .scope S_0x60dfa19bf9a0;
+T_7 ;
+    %vpi_call 2 171 "$dumpfile", "./vcd/Theta.vcd" {0 0 0};
+    %vpi_call 2 172 "$dumpvars", 32'sb00000000000000000000000000000000, S_0x60dfa19bf9a0 {0 0 0};
+    %pushi/vec4 0, 0, 32;
+    %store/vec4 v0x60dfa1a50d20_0, 0, 32;
+T_7.0 ;
+    %load/vec4 v0x60dfa1a50d20_0;
+    %cmpi/s 25, 0, 32;
+    %jmp/0xz T_7.1, 5;
+    %vpi_call 2 174 "$dumpvars", 32'sb00000000000000000000000000000000, &A<v0x60dfa1a4a650, v0x60dfa1a50d20_0 > {0 0 0};
+    %load/vec4 v0x60dfa1a50d20_0;
+    %addi 1, 0, 32;
+    %store/vec4 v0x60dfa1a50d20_0, 0, 32;
+    %jmp T_7.0;
+T_7.1 ;
+    %end;
+    .thread T_7;
+# The file index is used to find the file name in the following table.
+:file_names 5;
+    "N/A";
+    "<interactive>";
+    "./testbed/TESTBED_Theta.v";
+    "././pattern/PATTERN_Theta.v";
+    "././src/Theta.v";

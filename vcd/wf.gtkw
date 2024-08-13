@@ -1,0 +1,41 @@
+[*]
+[*] GTKWave Analyzer v3.3.104 (w)1999-2020 BSI
+[*] Sun Apr 28 03:55:52 2024
+[*]
+[dumpfile] "/home/justin/SHA3_FAST/vcd/SHA3_v3.vcd"
+[dumpfile_mtime] "Sun Apr 28 03:53:42 2024"
+[dumpfile_size] 8964512
+[savefile] "/home/justin/SHA3_FAST/vcd/wf.gtkw"
+[timestart] 11046000
+[size] 2490 1272
+[pos] -1 -1
+*-20.000000 1290000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] TESTBED_SHA3_v3.
+[treeopen] TESTBED_SHA3_v3.U_SHA3_v2.
+[sst_width] 233
+[signals_width] 484
+[sst_expanded] 1
+[sst_vpaned_height] 378
+@28
+TESTBED_SHA3_v3.U_SHA3_v2.clk
+@24
+TESTBED_SHA3_v3.U_SHA3_v2.state_cs[5:0]
+TESTBED_SHA3_v3.U_SHA3_v2.state_ns[5:0]
+@28
+TESTBED_SHA3_v3.U_SHA3_v2.in_valid
+@22
+TESTBED_SHA3_v3.U_SHA3_v2.in_data[63:0]
+@29
+TESTBED_SHA3_v3.U_SHA3_v2.in_isLast
+@24
+TESTBED_SHA3_v3.U_SHA3_v2.counter[4:0]
+@28
+TESTBED_SHA3_v3.U_SHA3_v2.out_valid
+@22
+TESTBED_SHA3_v3.U_SHA3_v2.out_data[63:0]
+@28
+TESTBED_SHA3_v3.U_SHA3_v2.out_buffer_full
+@420
+TESTBED_SHA3_v3.U_PATTERN_SHA3_v3.patcount
+[pattern_trace] 1
+[pattern_trace] 0
