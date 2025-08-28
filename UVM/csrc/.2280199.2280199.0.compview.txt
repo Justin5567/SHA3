@@ -1,0 +1,6 @@
+Command exited with non-zero status 1
+{"vcs1":{"timestamp_begin":1756359077.201640918, "rt":0.11, "ut":0.04, "st":0.03}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1756359076.634632785}
+{"VCS_COMP_START_TIME": 1756359076.634632785}
+{"VCS_COMP_END_TIME": 1756359077.409968388}
+{"VCS_USER_OPTIONS": "-full64 -sverilog +v2k -sv2k12 +acc -ntb_opts uvm -f filelist.f -l compile.log -R -P /package/eda/synopsys/verdi/V-2023.12/share/PLI/VCS/LINUX64/pli.a"}

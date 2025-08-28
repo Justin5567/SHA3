@@ -1,0 +1,10 @@
+{"vcs1":{"timestamp_begin":1754510405.761173624, "rt":5.55, "ut":5.00, "st":0.27}}
+{"vcselab":{"timestamp_begin":1754510411.400432039, "rt":0.30, "ut":0.15, "st":0.08}}
+Command exited with non-zero status 2
+{"link":{"timestamp_begin":1754510411.792713836, "rt":0.81, "ut":0.35, "st":0.31}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1754510405.235783664}
+{"VCS_COMP_START_TIME": 1754510405.235783664}
+{"VCS_COMP_END_TIME": 1754510412.779781980}
+{"VCS_USER_OPTIONS": "-full64 -sverilog +v2k -sv2k12 -ntb_opts uvm -f filelist.f -R -debug_access+all -l compile.log"}
+{"vcs1": {"peak_mem": 437780}}
+{"vcselab": {"peak_mem": 250572}}

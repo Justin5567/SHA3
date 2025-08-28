@@ -1,0 +1,8 @@
+uvm_verdi_dpi.o: \
+ /package/eda/synopsys/vcs/U-2023.03-SP2-2/etc/uvm/verdi/dpi/uvm_verdi_dpi.cpp \
+ /package/eda/synopsys/vcs/U-2023.03-SP2-2/include/vpi_user.h \
+ /package/eda/synopsys/vcs/U-2023.03-SP2-2/include/veriuser.h \
+ /package/eda/synopsys/vcs/U-2023.03-SP2-2/include/sv_vpi_user.h \
+ /package/eda/synopsys/vcs/U-2023.03-SP2-2/include/vpi_user.h \
+ /package/eda/synopsys/vcs/U-2023.03-SP2-2/include/vcs_vpi_user.h \
+ /package/eda/synopsys/vcs/U-2023.03-SP2-2/include/sv_vpi_user.h

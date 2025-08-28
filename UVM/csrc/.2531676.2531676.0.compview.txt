@@ -1,0 +1,7 @@
+Command exited with non-zero status 255
+{"vcs1":{"timestamp_begin":1755115261.071516707, "rt":0.75, "ut":0.52, "st":0.12}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1755115260.338398752}
+{"VCS_COMP_START_TIME": 1755115260.338398752}
+{"VCS_COMP_END_TIME": 1755115261.948639847}
+{"VCS_USER_OPTIONS": "-full64 -sverilog +v2k -sv2k12 -ntb_opts uvm -f filelist.f -R -debug_access+all -l compile.log -CFLAGS -I. -LDFLAGS -lstdc++ ./golden/sha3.cpp"}
+{"vcs1": {"peak_mem": 376824}}

@@ -1,0 +1,9 @@
+{"vcs1":{"timestamp_begin":1755105850.715507235, "rt":7.71, "ut":7.02, "st":0.35}}
+{"vcselab":{"timestamp_begin":1755105858.537746382, "rt":0.31, "ut":0.16, "st":0.06}}
+{"link":{"timestamp_begin":1755105858.944948230, "rt":0.50, "ut":0.14, "st":0.22}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1755105849.849143738}
+{"VCS_COMP_START_TIME": 1755105849.849143738}
+{"VCS_COMP_END_TIME": 1755105860.134409904}
+{"VCS_USER_OPTIONS": "-full64 -sverilog +v2k -sv2k12 -ntb_opts uvm -f filelist.f -R -debug_access+all -l compile.log -CFLAGS -I. -LDFLAGS -lstdc++ ./golden/sha3.cpp"}
+{"vcs1": {"peak_mem": 438568}}
+{"vcselab": {"peak_mem": 250572}}

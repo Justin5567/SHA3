@@ -1,0 +1,9 @@
+{"vcs1":{"timestamp_begin":1756359576.899850325, "rt":3.76, "ut":3.37, "st":0.16}}
+{"vcselab":{"timestamp_begin":1756359580.749668633, "rt":0.34, "ut":0.15, "st":0.07}}
+{"link":{"timestamp_begin":1756359581.157276784, "rt":0.37, "ut":0.10, "st":0.15}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1756359576.313860567}
+{"VCS_COMP_START_TIME": 1756359576.313860567}
+{"VCS_COMP_END_TIME": 1756359581.989064938}
+{"VCS_USER_OPTIONS": "-full64 -sverilog +v2k -sv2k12 +acc -ntb_opts uvm -f filelist.f -l compile.log -P /package/eda/synopsys/verdi/V-2023.12/share/PLI/VCS/LINUX64/novas.tab /package/eda/synopsys/verdi/V-2023.12/share/PLI/VCS/LINUX64/pli.a -R"}
+{"vcs1": {"peak_mem": 417920}}
+{"vcselab": {"peak_mem": 250552}}

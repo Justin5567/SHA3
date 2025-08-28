@@ -1,0 +1,6 @@
+{"vcs1":{"timestamp_begin":1754680720.216214410, "rt":0.17, "ut":0.05, "st":0.06}}
+{"link":{"timestamp_begin":1754680720.522632227, "rt":0.30, "ut":0.10, "st":0.13}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1754680719.615075575}
+{"VCS_COMP_START_TIME": 1754680719.615075575}
+{"VCS_COMP_END_TIME": 1754680721.464399651}
+{"VCS_USER_OPTIONS": "-full64 -sverilog +v2k -sv2k12 -ntb_opts uvm -f filelist.f -R -debug_access+all -l compile.log"}
